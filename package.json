@@ -87,8 +87,8 @@ export const Services: React.FC<ServicesProps> = ({ language, setView }) => {
           <div className="w-20 h-1 bg-[#C5A059] mx-auto mb-6" />
           <p className="font-sans text-slate-600 text-sm sm:text-base font-light leading-relaxed">
             {isBg 
-              ? 'BellEstateGroup предоставя затворен кръг от инженерингови, юридически и посреднически услуги за Вашия пълен комфорт и максимална защита на капиталите.'
-              : 'BellEstateGroup provides a fully rounded ecosystem of structural engineering, real estate law, and brokering to ensure complete safety of your transactions.'}
+              ? 'BelEstateGroup предоставя затворен кръг от инженерингови, юридически и посреднически услуги за Вашия пълен комфорт и максимална защита на капиталите.'
+              : 'BelEstateGroup provides a fully rounded ecosystem of structural engineering, real estate law, and brokering to ensure complete safety of your transactions.'}
           </p>
         </div>
 

@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-lg tracking-widest font-bold text-white uppercase group-hover:text-[#C5A059] transition-colors duration-200">
-                BellEstateGroup
+                BelEstateGroup
               </span>
               <span className="text-[10px] tracking-wider text-[#C5A059] font-sans font-light -mt-1 uppercase">
                 {language === 'bg' ? 'агенция - недвижими имоти' : 'real estate agency'}

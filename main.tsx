@@ -75,7 +75,7 @@ export const Properties: React.FC<PropertiesProps> = ({
     }).catch(err => console.error("Inquiry Dispatch Error:", err));
 
     // Store in LocalStorage or memory to simulate state saving
-    const savedInquiries = JSON.parse(localStorage.getItem('bell_estate_inquiries') || '[]');
+    const savedInquiries = JSON.parse(localStorage.getItem('bel_estate_inquiries') || '[]');
     const newInquiry: ContactInquiry = {
       name: inquiryName,
       email: inquiryEmail,
@@ -83,7 +83,7 @@ export const Properties: React.FC<PropertiesProps> = ({
       message: inquiryMsg,
       propertyTitle: title
     };
-    localStorage.setItem('bell_estate_inquiries', JSON.stringify([...savedInquiries, newInquiry]));
+    localStorage.setItem('bel_estate_inquiries', JSON.stringify([...savedInquiries, newInquiry]));
 
     setInquirySuccess(true);
     // Reset form after timer

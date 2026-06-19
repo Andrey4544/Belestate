@@ -36,9 +36,9 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
     }).catch(err => console.error("Contact Dispatch Error:", err));
 
     // Save in LocalStorage to simulate backend archiving
-    const savedContactMsgs = JSON.parse(localStorage.getItem('bell_estate_contacts') || '[]');
+    const savedContactMsgs = JSON.parse(localStorage.getItem('bel_estate_contacts') || '[]');
     const newMsg = { name, email, phone, message, date: new Date().toISOString() };
-    localStorage.setItem('bell_estate_contacts', JSON.stringify([...savedContactMsgs, newMsg]));
+    localStorage.setItem('bel_estate_contacts', JSON.stringify([...savedContactMsgs, newMsg]));
 
     setSuccess(true);
     // Clear inputs
@@ -202,7 +202,7 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
                 allowFullScreen={false} 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bell Estate Plovdiv Flagship Headquarters Location Map"
+                title="Bel Estate Plovdiv Flagship Headquarters Location Map"
                 className="absolute inset-0"
               />
             </div>

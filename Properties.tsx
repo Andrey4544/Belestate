@@ -152,7 +152,7 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
     }).catch(err => console.error("Booking Dispatch Error:", err));
 
     // Persist booking structure in LocalStorage
-    const savedBookings = JSON.parse(localStorage.getItem('bell_estate_bookings') || '[]');
+    const savedBookings = JSON.parse(localStorage.getItem('bel_estate_bookings') || '[]');
     const newBooking: ConsultationBooking = {
       name,
       email,
@@ -162,7 +162,7 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
       notes,
       type: domain
     };
-    localStorage.setItem('bell_estate_bookings', JSON.stringify([...savedBookings, newBooking]));
+    localStorage.setItem('bel_estate_bookings', JSON.stringify([...savedBookings, newBooking]));
 
     setBookingSuccess(true);
   };
@@ -223,7 +223,7 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
               </div>
               <div className="flex justify-between">
                 <span className="text-slate-400 font-sans font-medium">{language === 'bg' ? 'Доверен партньор' : 'Advising Director'}:</span>
-                <span className="font-sans font-semi-bold text-[#1A2B3C]">Bell Estate Advisory Team</span>
+                <span className="font-sans font-semi-bold text-[#1A2B3C]">Bel Estate Advisory Team</span>
               </div>
             </div>
 

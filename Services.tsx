@@ -3144,8 +3144,8 @@ export const blogPosts: BlogPost[] = [
     "titleEn": "How to Safely Buy a Home in Bulgaria: A Complete 2026 Guide",
     "excerptBg": "Всички правни и финансови детайли, стъпки за проверка на собствеността, такси при нотариус и как да избегнем скрити рискове.",
     "excerptEn": "Expert insights into legal and financial checks, property title deeds verification, notary taxes, and avoiding hidden buyer traps.",
-    "contentBg": "Покупката на жилище е сред най-важните финансови решения в живота. Българският пазар на недвижими имоти е изключително динамичен през 2026 година, което крие както големи възможности, така и скрити капани за неинформирания купувач. \n\nВ тази статия нашият екип от Bell Estate Group обобщава петте задолжителни стъпки, през които трябва да преминете, за да гарантирате 100% защита на вашата инвестиция:\n\n1. **Цялостна проверка на собствеността и вещните права (Търговски и Имотен Регистър)**\nНикога не разчитайте единствено на думите на продавача или на предоставения стар нотариален акт. Препоръчително е да извадите пълна историческа справка за имота от Агенцията по вписванията за поне 10 години назад, за да сте сигурни, че няма вписани ипотеки, възбрани, договори за наем или висящи съдебни спорове.\n\n2. **Задължителна проверка за липса на тежести**\nОфициалното Удостоверение за вещни тежести (УВТ) се издава в деня на самата сделка или непосредствено преди нея. Това е вашият официален щит срещу неочаквани ипотеки.\n\n3. **Внимателен анализ на предварителния договор**\nПредварителният договор урежда сроковете, неустойките при неспазване и етапите на плащане. В Bell Estate Group нашите адвокати изготвят индивидуални договори за всяка сделка, отхвърляйки предварително породени стандартни формуляри тип шаблони, които биха ощетили купувача.\n\n4. **Преводи на средства по специална банкова доверителна сметка**\nС цел превенция на измами, плащанията за големи трансакции се реализират изключително по банков път, често посредством Ескроу сметка (Доверителна попечителска банкова сметка), при която банката освобождава превода към продавача само при наличното реално подписване и вписване на новия Нотариален акт.\n\n5. **Оценка и сътрудничество с доверен посредник**\nПосредникът не е просто човек, който отваря врати – той е архитектът на правната безопасност на сделката. Bell Estate Group носи пълна юридическа отговорност за легалността на прехвърляните имоти в нашия каталог. Попитайте ни безплатно за всякакви въпроси днес!",
-    "contentEn": "Buying a home is one of the most significant financial steps in any lifetime. The Bulgarian real estate market is highly active in 2026, offering outstanding investment opportunities alongside critical legal risks for uninformed clients.\n\nIn this editorial, our expert legal team at Bell Estate Group details five paramount steps to completely safeguard your premium real estate investment:\n\n1. **Independent History Check on the Property Registry**\nNever rely solely on friendly verbal guarantees or even the physical copy of an old title deed. Our legal team pulls an official history extract spanning at least 10 preceding years from the central Registry Agency. This outlines whether previous successions, legacy inheritance claims, or pending court cases exist.\n\n2. **The Absolute Certificate of Obstacles (No Encumbrances)**\nThe official \"Certificate of Encumbrances\" (УВТ in Bulgarian) stands as your bulletproof legal protection. It certifies that the target house is perfectly clear of active commercial bank mortgages, private debt seizures, or litigation claims on the exact morning of contract finalization.\n\n3. **Meticulous Preparation of the Preliminary Purchase Agreement**\nThis document locks in the purchase price, timelines, and execution penalties. At Bell Estate Group, we write tailored custom contracts specifically matching your target layout and conditions, refusing to work with high-risk templated contracts that leave buyers exposed if a contractor delays work.\n\n4. **Ensuring Transaction Integrity with Bank Escrow Accounts**\nFinancial settlements exceeding BGN 10,000 must occur via certified bank wires. For ultimate high-end safety, utilizing a designated bank Escrow Account ensures that your capital is only released after the official transfer of the new title deed is stamp-approved by the Presiding Notary and registered.\n\n5. **Partnering with a Transparent, Licensed Agency**\nA proper real estate consultant is not a casual tour guide – they are the strict guardians of your capital. Bell Estate Group acts as your dedicated advocate, guaranteeing legal clarity on every villa listed under our portfolio. Reach out to our firm to set up your free consultation today!",
+    "contentBg": "Покупката на жилище е сред най-важните финансови решения в живота. Българският пазар на недвижими имоти е изключително динамичен през 2026 година, което крие както големи възможности, така и скрити капани за неинформирания купувач. \n\nВ тази статия нашият екип от Bel Estate Group обобщава петте задолжителни стъпки, през които трябва да преминете, за да гарантирате 100% защита на вашата инвестиция:\n\n1. **Цялостна проверка на собствеността и вещните права (Търговски и Имотен Регистър)**\nНикога не разчитайте единствено на думите на продавача или на предоставения стар нотариален акт. Препоръчително е да извадите пълна историческа справка за имота от Агенцията по вписванията за поне 10 години назад, за да сте сигурни, че няма вписани ипотеки, възбрани, договори за наем или висящи съдебни спорове.\n\n2. **Задължителна проверка за липса на тежести**\nОфициалното Удостоверение за вещни тежести (УВТ) се издава в деня на самата сделка или непосредствено преди нея. Това е вашият официален щит срещу неочаквани ипотеки.\n\n3. **Внимателен анализ на предварителния договор**\nПредварителният договор урежда сроковете, неустойките при неспазване и етапите на плащане. В Bel Estate Group нашите адвокати изготвят индивидуални договори за всяка сделка, отхвърляйки предварително породени стандартни формуляри тип шаблони, които биха ощетили купувача.\n\n4. **Преводи на средства по специална банкова доверителна сметка**\nС цел превенция на измами, плащанията за големи трансакции се реализират изключително по банков път, често посредством Ескроу сметка (Доверителна попечителска банкова сметка), при която банката освобождава превода към продавача само при наличното реално подписване и вписване на новия Нотариален акт.\n\n5. **Оценка и сътрудничество с доверен посредник**\nПосредникът не е просто човек, който отваря врати – той е архитектът на правната безопасност на сделката. Bel Estate Group носи пълна юридическа отговорност за легалността на прехвърляните имоти в нашия каталог. Попитайте ни безплатно за всякакви въпроси днес!",
+    "contentEn": "Buying a home is one of the most significant financial steps in any lifetime. The Bulgarian real estate market is highly active in 2026, offering outstanding investment opportunities alongside critical legal risks for uninformed clients.\n\nIn this editorial, our expert legal team at Bel Estate Group details five paramount steps to completely safeguard your premium real estate investment:\n\n1. **Independent History Check on the Property Registry**\nNever rely solely on friendly verbal guarantees or even the physical copy of an old title deed. Our legal team pulls an official history extract spanning at least 10 preceding years from the central Registry Agency. This outlines whether previous successions, legacy inheritance claims, or pending court cases exist.\n\n2. **The Absolute Certificate of Obstacles (No Encumbrances)**\nThe official \"Certificate of Encumbrances\" (УВТ in Bulgarian) stands as your bulletproof legal protection. It certifies that the target house is perfectly clear of active commercial bank mortgages, private debt seizures, or litigation claims on the exact morning of contract finalization.\n\n3. **Meticulous Preparation of the Preliminary Purchase Agreement**\nThis document locks in the purchase price, timelines, and execution penalties. At Bel Estate Group, we write tailored custom contracts specifically matching your target layout and conditions, refusing to work with high-risk templated contracts that leave buyers exposed if a contractor delays work.\n\n4. **Ensuring Transaction Integrity with Bank Escrow Accounts**\nFinancial settlements exceeding BGN 10,000 must occur via certified bank wires. For ultimate high-end safety, utilizing a designated bank Escrow Account ensures that your capital is only released after the official transfer of the new title deed is stamp-approved by the Presiding Notary and registered.\n\n5. **Partnering with a Transparent, Licensed Agency**\nA proper real estate consultant is not a casual tour guide – they are the strict guardians of your capital. Bel Estate Group acts as your dedicated advocate, guaranteeing legal clarity on every villa listed under our portfolio. Reach out to our firm to set up your free consultation today!",
     "date": "2026-06-15",
     "categoryBg": "Правни Съвети",
     "categoryEn": "Legal Advocacy",
@@ -3172,7 +3172,7 @@ export const blogPosts: BlogPost[] = [
 
 export const translations = {
   "bg": {
-    "brandName": "BellEstateGroup",
+    "brandName": "BelEstateGroup",
     "brandTagline": "агенция - недвижими имоти",
     "navHome": "Начало",
     "navListings": "Портфолио",
@@ -3181,7 +3181,7 @@ export const translations = {
     "navConsultation": "Безплатна Консултация",
     "navContact": "Адрес и Контакти",
     "heroTitle": "Вашата сигурна стъпка към мечтания нов дом",
-    "heroSubtitle": "С над 18 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от BellEstateGroup осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
+    "heroSubtitle": "С над 18 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от BelEstateGroup осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
     "searchPlaceholder": "Търсете по локация, квартал...",
     "filterType": "Тип имот",
     "filterCity": "Локация/Град",
@@ -3209,7 +3209,7 @@ export const translations = {
     "descriptionTitle": "Описание на имота",
     "specificationsTitle": "Параметри на сградата",
     "inquiryTitle": "Изпратете запитване за този имот",
-    "trustTitle": "Фундаментът на BellEstateGroup е Вашето доверие",
+    "trustTitle": "Фундаментът на BelEstateGroup е Вашето доверие",
     "trustSubtitle": "Ние не просто продаваме сгради. Ние гарантираме Вашето спокойствие с безкомпромисна почтеност.",
     "value1Title": "Правна Гаранция от 100%",
     "value1Desc": "Всеки имот в нашето портфолио преминава през задълбочена юридическа проверка за тежести, история на собствеността и вещни права от нашите вътрешни юристи.",
@@ -3271,12 +3271,12 @@ export const translations = {
     "resetFilters": "Изчисти Филтрите",
     "readPost": "Прочети цялата статия",
     "backToBlog": "Обратно към всички статии",
-    "footerRights": "Всички права запазени. Bell Estate Group.",
+    "footerRights": "Всички права запазени. Bel Estate Group.",
     "footerLegalInfo": "Дружеството е лицензиран посредник на недвижими имоти и притежава пълна сертификация по БДС EN 15733.",
     "footerQuickLinks": "Бърз достъп"
   },
   "en": {
-    "brandName": "BellEstateGroup",
+    "brandName": "BelEstateGroup",
     "brandTagline": "real estate agency",
     "navHome": "Home",
     "navListings": "Portfolio",
@@ -3285,7 +3285,7 @@ export const translations = {
     "navConsultation": "Free Consultation",
     "navContact": "Office & Contacts",
     "heroTitle": "Your Secured Gateway to the Perfect Home",
-    "heroSubtitle": "With over 18 years of exceptional experience and more than 1000 successfully closed deals, BellEstateGroup guarantees your complete peace of mind, full legal security, and absolute professionalism.",
+    "heroSubtitle": "With over 18 years of exceptional experience and more than 1000 successfully closed deals, BelEstateGroup guarantees your complete peace of mind, full legal security, and absolute professionalism.",
     "searchPlaceholder": "Search by neighborhood, city, or feature...",
     "filterType": "Property Type",
     "filterCity": "Location/City",
@@ -3375,8 +3375,8 @@ export const translations = {
     "resetFilters": "Reset Search Filters",
     "readPost": "Read Full Article",
     "backToBlog": "Back to Market Intelligence",
-    "footerRights": "All rights reserved. Bell Estate Group.",
-    "footerLegalInfo": "Bell Estate Group is a licensed and certified real estate broker holding full BS EN 15733 professional credentials.",
+    "footerRights": "All rights reserved. Bel Estate Group.",
+    "footerLegalInfo": "Bel Estate Group is a licensed and certified real estate broker holding full BS EN 15733 professional credentials.",
     "footerQuickLinks": "Quick Access"
   }
 };

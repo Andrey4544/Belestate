@@ -3172,7 +3172,7 @@ export const blogPosts: BlogPost[] = [
 
 export const translations = {
   "bg": {
-    "brandName": "BelEstateGroup",
+    "brandName": "Bel Estate Group",
     "brandTagline": "агенция - недвижими имоти",
     "navHome": "Начало",
     "navListings": "Портфолио",
@@ -3181,7 +3181,7 @@ export const translations = {
     "navConsultation": "Безплатна Консултация",
     "navContact": "Адрес и Контакти",
     "heroTitle": "Вашата сигурна стъпка към мечтания нов дом",
-    "heroSubtitle": "С над 18 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от BelEstateGroup осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
+    "heroSubtitle": "С над 18 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от Bel Estate Group осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
     "searchPlaceholder": "Търсете по локация, квартал...",
     "filterType": "Тип имот",
     "filterCity": "Локация/Град",
@@ -3209,7 +3209,7 @@ export const translations = {
     "descriptionTitle": "Описание на имота",
     "specificationsTitle": "Параметри на сградата",
     "inquiryTitle": "Изпратете запитване за този имот",
-    "trustTitle": "Фундаментът на BelEstateGroup е Вашето доверие",
+    "trustTitle": "Фундаментът на Bel Estate Group е Вашето доверие",
     "trustSubtitle": "Ние не просто продаваме сгради. Ние гарантираме Вашето спокойствие с безкомпромисна почтеност.",
     "value1Title": "Правна Гаранция от 100%",
     "value1Desc": "Всеки имот в нашето портфолио преминава през задълбочена юридическа проверка за тежести, история на собствеността и вещни права от нашите вътрешни юристи.",
@@ -3276,7 +3276,7 @@ export const translations = {
     "footerQuickLinks": "Бърз достъп"
   },
   "en": {
-    "brandName": "BelEstateGroup",
+    "brandName": "Bel Estate Group",
     "brandTagline": "real estate agency",
     "navHome": "Home",
     "navListings": "Portfolio",
@@ -3285,7 +3285,7 @@ export const translations = {
     "navConsultation": "Free Consultation",
     "navContact": "Office & Contacts",
     "heroTitle": "Your Secured Gateway to the Perfect Home",
-    "heroSubtitle": "With over 18 years of exceptional experience and more than 1000 successfully closed deals, BelEstateGroup guarantees your complete peace of mind, full legal security, and absolute professionalism.",
+    "heroSubtitle": "With over 18 years of exceptional experience and more than 1000 successfully closed deals, Bel Estate Group guarantees your complete peace of mind, full legal security, and absolute professionalism.",
     "searchPlaceholder": "Search by neighborhood, city, or feature...",
     "filterType": "Property Type",
     "filterCity": "Location/City",

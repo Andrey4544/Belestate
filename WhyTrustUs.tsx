@@ -19,7 +19,7 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
   const handleContactSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Send email using FormSubmit
+    // Send email using FormSubmit with proper error handling
     fetch("https://formsubmit.co/ajax/abelev48@gmail.com", {
       method: "POST",
       headers: {
@@ -28,12 +28,25 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
       },
       body: JSON.stringify({
         _subject: `Ново Съобщение за Връзка: ${name}`,
+        _captcha: "false",
         "Име на подател / Client Name": name,
         "Контактен Имейл / Client Email": email,
         "Телефон / Phone Number": phone,
         "Основно съобщение / Message Content": message
       })
-    }).catch(err => console.error("Contact Dispatch Error:", err));
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Contact email sent successfully:", data);
+    })
+    .catch(err => {
+      console.error("Contact Dispatch Error:", err);
+    });
 
     // Save in LocalStorage to simulate backend archiving
     const savedContactMsgs = JSON.parse(localStorage.getItem('bel_estate_contacts') || '[]');

@@ -53,7 +53,7 @@ export default function App() {
   const featuredProperties = properties.filter(p => p.featured);
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col font-sans selection:bg-[#C5A059] selection:text-[#1A2B3C]" id="bell-estate-root">
+    <div className="min-h-screen bg-slate-50 flex flex-col font-sans selection:bg-[#C5A059] selection:text-[#1A2B3C]" id="bel-estate-root">
       
       {/* 100% Bilingual Header Navigation bar with language switcher */}
       <Header 

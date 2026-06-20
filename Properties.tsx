@@ -133,7 +133,7 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
 
     const targetTopicLabel = getDomainLabel(domain);
 
-    // Send dynamic email using FormSubmit
+    // Send dynamic email using FormSubmit with proper error handling
     fetch("https://formsubmit.co/ajax/abelev48@gmail.com", {
       method: "POST",
       headers: {
@@ -142,6 +142,7 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
       },
       body: JSON.stringify({
         _subject: `Запазена Безплатна Консултация: ${name}`,
+        _captcha: "false",
         "Име на контакт / Name": name,
         "Имейл адрес / Email": email,
         "Телефон / Phone": phone,
@@ -149,7 +150,19 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
         "Желано време / Selected Slot": `${selectedDate} @ ${selectedTimeSlot}`,
         "Бележки и Детайли / Notes": notes || 'Без допълнителни бележки.'
       })
-    }).catch(err => console.error("Booking Dispatch Error:", err));
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Booking email sent successfully:", data);
+    })
+    .catch(err => {
+      console.error("Booking Dispatch Error:", err);
+    });
 
     // Persist booking structure in LocalStorage
     const savedBookings = JSON.parse(localStorage.getItem('bel_estate_bookings') || '[]');

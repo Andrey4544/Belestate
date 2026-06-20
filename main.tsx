@@ -56,7 +56,7 @@ export const Properties: React.FC<PropertiesProps> = ({
     e.preventDefault();
     const title = language === 'bg' ? property.titleBg : property.titleEn;
     
-    // Send dynamic email using FormSubmit
+    // Send dynamic email using FormSubmit with proper error handling
     fetch("https://formsubmit.co/ajax/abelev48@gmail.com", {
       method: "POST",
       headers: {
@@ -65,6 +65,7 @@ export const Properties: React.FC<PropertiesProps> = ({
       },
       body: JSON.stringify({
         _subject: `Ново Запитване за Имот: ${title}`,
+        _captcha: "false",
         "Избран Имот / Property": title,
         "Цена / Price": property.price === 0 ? "При запитване / Price on Request" : `€${property.price.toLocaleString()}`,
         "Име на контакт / Contact Name": inquiryName,
@@ -72,7 +73,19 @@ export const Properties: React.FC<PropertiesProps> = ({
         "Телефон / Phone": inquiryPhone,
         "Съобщение / Message": inquiryMsg
       })
-    }).catch(err => console.error("Inquiry Dispatch Error:", err));
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log("Email sent successfully:", data);
+    })
+    .catch(err => {
+      console.error("Inquiry Dispatch Error:", err);
+    });
 
     // Store in LocalStorage or memory to simulate state saving
     const savedInquiries = JSON.parse(localStorage.getItem('bel_estate_inquiries') || '[]');

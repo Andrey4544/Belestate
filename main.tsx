@@ -81,10 +81,10 @@ export const Properties: React.FC<PropertiesProps> = ({
       return response.json();
     })
     .then(data => {
-      console.log("Email sent successfully:", data);
+      // Email sent successfully
     })
     .catch(err => {
-      console.error("Inquiry Dispatch Error:", err);
+      // Handle error silently
     });
 
     // Store in LocalStorage or memory to simulate state saving

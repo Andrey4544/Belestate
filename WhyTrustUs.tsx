@@ -42,10 +42,10 @@ export const Contact: React.FC<ContactProps> = ({ language }) => {
       return response.json();
     })
     .then(data => {
-      console.log("Contact email sent successfully:", data);
+      // Email sent successfully
     })
     .catch(err => {
-      console.error("Contact Dispatch Error:", err);
+      // Handle error silently
     });
 
     // Save in LocalStorage to simulate backend archiving

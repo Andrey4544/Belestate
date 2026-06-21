@@ -158,10 +158,10 @@ export const Booking: React.FC<BookingProps> = ({ language, preselectedTopic = '
       return response.json();
     })
     .then(data => {
-      console.log("Booking email sent successfully:", data);
+      // Email sent successfully
     })
     .catch(err => {
-      console.error("Booking Dispatch Error:", err);
+      // Handle error silently
     });
 
     // Persist booking structure in LocalStorage

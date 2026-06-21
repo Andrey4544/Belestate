@@ -46,7 +46,7 @@ export const translations = {
     "navConsultation": "Безплатна Консултация",
     "navContact": "Адрес и Контакти",
     "heroTitle": "Вашата сигурна стъпка към мечтания нов дом",
-    "heroSubtitle": "С над 20 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от BellEstateGroup осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
+    "heroSubtitle": "С над 20 години професионален опит и над 1000 успешно реализирани сделки в град Пловдив и цялата страна, ние от BelEstateGroup осъществяваме Вашите планове с пълна юридическа подкрепа, почтеност и професионализъм.",
     "searchPlaceholder": "Търсете по локация, квартал...",
     "filterType": "Тип имот",
     "filterCity": "Локация/Град",
@@ -74,7 +74,7 @@ export const translations = {
     "descriptionTitle": "Описание на имота",
     "specificationsTitle": "Параметри на сградата",
     "inquiryTitle": "Изпратете запитване за този имот",
-    "trustTitle": "Фундаментът на BellEstateGroup е Вашето доверие",
+    "trustTitle": "Фундаментът на BelEstateGroup е Вашето доверие",
     "trustSubtitle": "Ние не просто продаваме сгради. Ние гарантираме Вашето спокойствие с безкомпромисна почтеност.",
     "value1Title": "Правна Гаранция от 100%",
     "value1Desc": "Всеки имот в нашето портфолио преминава през задълбочена юридическа проверка за тежести, история на собствеността и вещни права от нашите вътрешни юристи.",
@@ -99,8 +99,8 @@ export const translations = {
     "footerTagline": "Лидер в правно-защитените имотни инвестиции в Пловдив и страната.",
     "footerAddress": "ул. „Христо Г. Данов“ 2, 4000 Център, Пловдив",
     "footerPhone": "0898 573 681",
-    "footerEmail": "office@bellestategroup.bg",
-    "copyright": "© 2026 BellEstateGroup. Всички права запазени."
+    "footerEmail": "office@belestategroup.bg",
+    "copyright": "© 2026 BelEstateGroup. Всички права запазени."
   },
   "en": {
     "brandName": "BelEstateGroup",
@@ -112,7 +112,7 @@ export const translations = {
     "navConsultation": "Free Consultation",
     "navContact": "Address & Contacts",
     "heroTitle": "Your Secure Step Toward Your Dream Home",
-    "heroSubtitle": "With over 20 years of exceptional experience and 1,000+ successful transactions in Plovdiv and across Bulgaria, BellEstateGroup delivers results with legal integrity and professionalism.",
+    "heroSubtitle": "With over 20 years of exceptional experience and 1,000+ successful transactions in Plovdiv and across Bulgaria, BelEstateGroup delivers results with legal integrity and professionalism.",
     "searchPlaceholder": "Search by location, district...",
     "filterType": "Property Type",
     "filterCity": "Location/City",
@@ -140,7 +140,7 @@ export const translations = {
     "descriptionTitle": "Property Description",
     "specificationsTitle": "Building Specs",
     "inquiryTitle": "Inquire About This Property",
-    "trustTitle": "The Foundation of BellEstateGroup is Your Trust",
+    "trustTitle": "The Foundation of BelEstateGroup is Your Trust",
     "trustSubtitle": "We don't just sell buildings. We guarantee your peace of mind with uncompromising integrity.",
     "value1Title": "100% Legal Guarantee",
     "value1Desc": "Every property in our portfolio undergoes a deep legal audit for encumbrances, title history, and property rights by our in-house attorneys.",
@@ -165,7 +165,7 @@ export const translations = {
     "footerTagline": "Leader in legally-protected real estate investments in Plovdiv and nationwide.",
     "footerAddress": "2 Hristo G. Danov St, 4000 Center, Plovdiv",
     "footerPhone": "0898 573 681",
-    "footerEmail": "office@bellestategroup.bg",
-    "copyright": "© 2026 BellEstateGroup. All rights reserved."
+    "footerEmail": "office@belestategroup.bg",
+    "copyright": "© 2026 BelEstateGroup. All rights reserved."
   }
 };

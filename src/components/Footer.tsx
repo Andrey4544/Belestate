@@ -30,7 +30,7 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
                 <ShieldCheck className="h-5 w-5 text-[#1A2B3C]" />
               </div>
               <span className="font-serif text-base tracking-widest font-bold text-white uppercase">
-                BellEstateGroup
+                BelEstateGroup
               </span>
             </div>
             

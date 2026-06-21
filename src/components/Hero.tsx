@@ -100,7 +100,8 @@ export const Hero: React.FC<HeroProps> = ({ language, onSearch }) => {
                 <option value="house" className="bg-[#1A2B3C] text-white">{t.house}</option>
                 <option value="villa" className="bg-[#1A2B3C] text-white">{t.villa}</option>
                 <option value="apartment" className="bg-[#1A2B3C] text-white">{t.apartment}</option>
-                <option value="penthouse" className="bg-[#1A2B3C] text-white">{t.penthouse}</option>
+                <option value="plot" className="bg-[#1A2B3C] text-white">{language === 'bg' ? 'Парцел' : 'Plot'}</option>
+                <option value="store" className="bg-[#1A2B3C] text-white">{language === 'bg' ? 'Магазин' : 'Store'}</option>
               </select>
               <span className="absolute right-2 text-slate-300 pointer-events-none text-[10px]">▼</span>
             </div>
@@ -115,10 +116,9 @@ export const Hero: React.FC<HeroProps> = ({ language, onSearch }) => {
                 id="search-city-dropdown"
               >
                 <option value="all" className="bg-[#1A2B3C] text-white">{t.allCities}</option>
+                <option value="plovdiv" className="bg-[#1A2B3C] text-white">{t.plovdiv}</option>
                 <option value="sofia" className="bg-[#1A2B3C] text-white">{t.sofia}</option>
                 <option value="varna" className="bg-[#1A2B3C] text-white">{t.varna}</option>
-                <option value="plovdiv" className="bg-[#1A2B3C] text-white">{t.plovdiv}</option>
-                <option value="bansko" className="bg-[#1A2B3C] text-white">{t.bansko}</option>
               </select>
               <span className="absolute right-2 text-slate-300 pointer-events-none text-[10px]">▼</span>
             </div>

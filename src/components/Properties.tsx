@@ -111,19 +111,21 @@ export const Properties: React.FC<PropertiesProps> = ({
       if (typeKey === 'house') return 'Фамилна Къща';
       if (typeKey === 'villa') return 'Луксозна Вила';
       if (typeKey === 'penthouse') return 'Пентхаус / Мезонет';
-      if (typeKey === 'land') return 'Парцел / УПИ / Земя';
-      if (typeKey === 'commercial') return 'Търговски обект / Офис';
-      if (typeKey === 'garage') return 'Собствен Гараж';
+      if (typeKey === 'plot') return 'Парцел / УПИ / Земя';
+      if (typeKey === 'store') return 'Търговски обект / Магазин';
+      if (typeKey === 'restaurant') return 'Заведение / Ресторант';
+      if (typeKey === 'hotel') return 'Хотел / Къща за гости';
       if (typeKey === 'industrial') return 'Склад / Промишлено помещение';
     } else {
       if (typeKey === 'apartment') return 'Standard Apartment';
-      if (typeKey === 'house') return 'Family Country House';
+      if (typeKey === 'house') return 'Family House';
       if (typeKey === 'villa') return 'Luxury Villa';
       if (typeKey === 'penthouse') return 'Luxury Penthouse';
-      if (typeKey === 'land') return 'Plot / Development Land';
-      if (typeKey === 'commercial') return 'Commercial Store / Office';
-      if (typeKey === 'garage') return 'Secure Garage Box';
-      if (typeKey === 'industrial') return 'Warehouse / Industrial Yard';
+      if (typeKey === 'plot') return 'Plot / Land';
+      if (typeKey === 'store') return 'Commercial Store';
+      if (typeKey === 'restaurant') return 'Restaurant / Cafe';
+      if (typeKey === 'hotel') return 'Hotel';
+      if (typeKey === 'industrial') return 'Warehouse / Industrial';
     }
     return typeKey.toUpperCase();
   };

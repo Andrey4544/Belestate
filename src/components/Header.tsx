@@ -89,8 +89,8 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Quick Contact phone */}
             <div className="flex items-center text-slate-300 gap-2">
               <Phone className="h-4 w-4 text-[#C5A059]" />
-              <a href="tel:032260510" className="text-xs hover:text-white font-sans transition-colors duration-200 font-medium">
-                032 260 510
+              <a href="tel:0898573681" className="text-xs hover:text-white font-sans transition-colors duration-200 font-medium">
+                0898 573 681
               </a>
             </div>
 
@@ -165,8 +165,8 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="pt-4 px-4 border-t border-slate-700/50 space-y-4">
               <div className="flex items-center text-slate-300 gap-3">
                 <Phone className="h-4 w-4 text-[#C5A059]" />
-                <a href="tel:032260510" className="text-sm font-sans font-medium">
-                  032 260 510
+                <a href="tel:0898573681" className="text-sm font-sans font-medium">
+                  0898 573 681
                 </a>
               </div>
               <button

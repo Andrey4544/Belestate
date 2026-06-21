@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, MapPin, Building2 } from 'lucide-react';
 import { Language } from '../types';
-import { translations } from '../data/mockData';
+import { translations, properties } from '../data/mockData';
 
 interface HeroProps {
   language: Language;
@@ -14,6 +14,30 @@ export const Hero: React.FC<HeroProps> = ({ language, onSearch }) => {
   const [city, setCity] = useState('all');
   
   const t = translations[language];
+
+  const getUniqueCities = () => {
+    const cities = new Set<string>();
+    properties.forEach(p => {
+      if (p.cityKey) cities.add(p.cityKey);
+    });
+    return Array.from(cities).sort((a, b) => a.localeCompare(b, 'bg'));
+  };
+
+  const getPropertyCityLabel = (cityKey: string) => {
+    if (language === 'bg') {
+      return cityKey;
+    } else {
+      if (cityKey === 'Пловдив') return 'Plovdiv';
+      if (cityKey === 'с. Храбрино') return 'Hrabrino Village';
+      if (cityKey === 'с. Марково') return 'Markovo Village';
+      if (cityKey === 'с. Белащица') return 'Belashtitsa Village';
+      if (cityKey === 'с. Първенец') return 'Parvenets Village';
+      if (cityKey === 'с. Брестник') return 'Brestnik Village';
+      if (cityKey === 'Съединение') return 'Saedinenie Town';
+      if (cityKey === 'с. Царацово') return 'Tsaratsovo Village';
+      return cityKey;
+    }
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -116,9 +140,11 @@ export const Hero: React.FC<HeroProps> = ({ language, onSearch }) => {
                 id="search-city-dropdown"
               >
                 <option value="all" className="bg-[#1A2B3C] text-white">{t.allCities}</option>
-                <option value="plovdiv" className="bg-[#1A2B3C] text-white">{t.plovdiv}</option>
-                <option value="sofia" className="bg-[#1A2B3C] text-white">{t.sofia}</option>
-                <option value="varna" className="bg-[#1A2B3C] text-white">{t.varna}</option>
+                {getUniqueCities().map(cityKey => (
+                  <option key={cityKey} value={cityKey} className="bg-[#1A2B3C] text-white">
+                    {getPropertyCityLabel(cityKey)}
+                  </option>
+                ))}
               </select>
               <span className="absolute right-2 text-slate-300 pointer-events-none text-[10px]">▼</span>
             </div>

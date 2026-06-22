@@ -24,19 +24,25 @@ export const Hero: React.FC<HeroProps> = ({ language, onSearch }) => {
   };
 
   const getPropertyCityLabel = (cityKey: string) => {
-    if (language === 'bg') {
-      return cityKey;
-    } else {
-      if (cityKey === 'Пловдив') return 'Plovdiv';
-      if (cityKey === 'с. Храбрино') return 'Hrabrino Village';
-      if (cityKey === 'с. Марково') return 'Markovo Village';
-      if (cityKey === 'с. Белащица') return 'Belashtitsa Village';
-      if (cityKey === 'с. Първенец') return 'Parvenets Village';
-      if (cityKey === 'с. Брестник') return 'Brestnik Village';
-      if (cityKey === 'Съединение') return 'Saedinenie Town';
-      if (cityKey === 'с. Царацово') return 'Tsaratsovo Village';
-      return cityKey;
-    }
+    if (language === 'bg') return cityKey;
+    
+    const translations: Record<string, string> = {
+      'Пловдив': 'Plovdiv',
+      'Храбрино': 'Hrabrino',
+      'Марково': 'Markovo',
+      'Белащица': 'Belashtitsa',
+      'Първенец': 'Parvenets',
+      'Брестник': 'Brestnik',
+      'Съединение': 'Saedinenie',
+      'Царацово': 'Tsaratsovo',
+      'Цалапица': 'Tsalapitsa',
+      'Оризари': 'Orizari',
+      'Радиново': 'Radinovo',
+      'Строево': 'Stroevo',
+      'Брестовица': 'Brestovitsa'
+    };
+    
+    return translations[cityKey] || cityKey;
   };
 
   const handleSubmit = (e: React.FormEvent) => {

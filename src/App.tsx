@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WhyTrustUs } from './components/WhyTrustUs';
@@ -16,6 +17,7 @@ import { Maximize2, BedDouble, Bath, Calendar, ChevronRight, Phone, Clock, Arrow
 export default function App() {
   const [language, setLanguage] = useState<Language>('bg');
   const [currentView, setView] = useState<ViewType>('home');
+  const [searchParams, setSearchParams] = useSearchParams();
 
   // Search parameters pre-loaded from Hero search to Listings portfolio
   const [initialSearchQuery, setInitialSearchQuery] = useState('');
@@ -34,6 +36,30 @@ export default function App() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [currentView]);
+
+  // Sync URL ?listing=id with the Properties modal
+  const urlListingId = searchParams.get('listing');
+  const urlListingProperty = urlListingId
+    ? properties.find(p => String(p.id) === urlListingId) || null
+    : null;
+
+  // When a listing URL is detected, switch to listings view
+  useEffect(() => {
+    if (urlListingId) {
+      setView('listings');
+    }
+  }, [urlListingId]);
+
+  // Helper to navigate to a listing URL
+  const openListingUrl = (propertyId: number) => {
+    setSearchParams({ listing: String(propertyId) });
+    setView('listings');
+  };
+
+  // Helper to clear listing URL
+  const clearListingUrl = () => {
+    setSearchParams({});
+  };
 
   // Handle search submit on hero
   const handleHeroSearch = (query: string, type: string, city: string) => {
@@ -287,6 +313,9 @@ export default function App() {
             initialType={initialSearchType}
             initialCity={initialSearchCity}
             onBookPropertyConsultation={handleConsultationRedirect}
+            urlOpenProperty={urlListingProperty}
+            onClearListingUrl={clearListingUrl}
+            onOpenListingUrl={openListingUrl}
           />
         )}
 

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Search, MapPin, Maximize2, BedDouble, Bath, Calendar, X, Building2, SlidersHorizontal, ArrowUpDown, ChevronRight, CheckCircle2, Phone, Mail } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Search, MapPin, Maximize2, BedDouble, Bath, Calendar, X, Building2, SlidersHorizontal, ArrowUpDown, ChevronRight, CheckCircle2, Phone, Mail, Share2, Copy, Check } from 'lucide-react';
 import { Language, Property, ContactInquiry } from '../types';
 import { properties, translations } from '../data/mockData';
 
@@ -9,6 +9,9 @@ interface PropertiesProps {
   initialType?: string;
   initialCity?: string;
   onBookPropertyConsultation?: (propertyTitle: string) => void;
+  urlOpenProperty?: Property | null;
+  onClearListingUrl?: () => void;
+  onOpenListingUrl?: (id: number) => void;
 }
 
 export const Properties: React.FC<PropertiesProps> = ({
@@ -16,7 +19,10 @@ export const Properties: React.FC<PropertiesProps> = ({
   initialQuery = '',
   initialType = 'all',
   initialCity = 'all',
-  onBookPropertyConsultation
+  onBookPropertyConsultation,
+  urlOpenProperty = null,
+  onClearListingUrl,
+  onOpenListingUrl
 }) => {
   const t = translations[language];
 
@@ -31,12 +37,42 @@ export const Properties: React.FC<PropertiesProps> = ({
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
   const [activeGalleryIndex, setActiveGalleryIndex] = useState(0);
 
+  // Share button state
+  const [shareCopied, setShareCopied] = useState(false);
+
+  // Open modal from URL param if provided
+  useEffect(() => {
+    if (urlOpenProperty) {
+      setSelectedProperty(urlOpenProperty);
+      setActiveGalleryIndex(0);
+    }
+  }, [urlOpenProperty]);
+
   // Inquiry Form inside the detailing modal
   const [inquiryName, setInquiryName] = useState('');
   const [inquiryEmail, setInquiryEmail] = useState('');
   const [inquiryPhone, setInquiryPhone] = useState('');
   const [inquiryMsg, setInquiryMsg] = useState('');
   const [inquirySuccess, setInquirySuccess] = useState(false);
+
+  // Share listing helper
+  const handleShareListing = useCallback((property: Property) => {
+    const url = `${window.location.origin}${window.location.pathname}?listing=${property.id}`;
+    if (navigator.share) {
+      navigator.share({
+        title: language === 'bg' ? property.titleBg : property.titleEn,
+        text: language === 'bg'
+          ? `Разгледайте този имот: ${property.titleBg} – €${property.price.toLocaleString()}`
+          : `Check out this property: ${property.titleEn} – €${property.price.toLocaleString()}`,
+        url
+      }).catch(() => {});
+    } else {
+      navigator.clipboard.writeText(url).then(() => {
+        setShareCopied(true);
+        setTimeout(() => setShareCopied(false), 2500);
+      }).catch(() => {});
+    }
+  }, [language]);
 
   // Synchronize initial search fields when they trigger from Hero
   useEffect(() => {
@@ -435,17 +471,28 @@ export const Properties: React.FC<PropertiesProps> = ({
                       </span>
                     </div>
 
-                    <button
-                      onClick={() => {
-                        setSelectedProperty(property);
-                        setActiveGalleryIndex(0);
-                      }}
-                      className="inline-flex items-center gap-1.5 bg-[#1A2B3C] hover:bg-[#C5A059] text-white hover:text-[#1A2B3C] px-4 py-2.5 rounded-lg text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-sm cursor-pointer"
-                      id={`view-details-btn-${property.id}`}
-                    >
-                      <span>{t.viewDetails}</span>
-                      <ChevronRight className="h-3.5 w-3.5" />
-                    </button>
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => handleShareListing(property)}
+                        title={language === 'bg' ? 'Сподели имота' : 'Share listing'}
+                        className="inline-flex items-center justify-center bg-slate-100 hover:bg-[#C5A059]/20 border border-slate-200 hover:border-[#C5A059] text-slate-500 hover:text-[#C5A059] p-2.5 rounded-lg transition-all duration-300 cursor-pointer"
+                        id={`share-btn-card-${property.id}`}
+                      >
+                        <Share2 className="h-3.5 w-3.5" />
+                      </button>
+                      <button
+                        onClick={() => {
+                          setSelectedProperty(property);
+                          setActiveGalleryIndex(0);
+                          if (onOpenListingUrl) onOpenListingUrl(property.id);
+                        }}
+                        className="inline-flex items-center gap-1.5 bg-[#1A2B3C] hover:bg-[#C5A059] text-white hover:text-[#1A2B3C] px-4 py-2.5 rounded-lg text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-sm cursor-pointer"
+                        id={`view-details-btn-${property.id}`}
+                      >
+                        <span>{t.viewDetails}</span>
+                        <ChevronRight className="h-3.5 w-3.5" />
+                      </button>
+                    </div>
                   </div>
                 </div>
 
@@ -492,13 +539,29 @@ export const Properties: React.FC<PropertiesProps> = ({
               <span className="font-serif text-sm tracking-widest font-bold text-[#C5A059] uppercase">
                 {getPropertyTypeLabel(selectedProperty.typeKey)}
               </span>
-              <button 
-                onClick={() => setSelectedProperty(null)}
-                className="text-slate-300 hover:text-white bg-white/5 hover:bg-white/10 p-1.5 rounded-full transition-colors"
-                id="close-modal-btn"
-              >
-                <X className="h-5 w-5" />
-              </button>
+              <div className="flex items-center gap-2">
+                {/* Share button in modal header */}
+                <button
+                  onClick={() => handleShareListing(selectedProperty)}
+                  title={language === 'bg' ? 'Сподели имота' : 'Share listing'}
+                  className="flex items-center gap-1.5 bg-[#C5A059]/10 hover:bg-[#C5A059]/20 border border-[#C5A059]/30 hover:border-[#C5A059] text-[#C5A059] px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-wider transition-all duration-200 cursor-pointer"
+                  id="share-modal-btn"
+                >
+                  {shareCopied
+                    ? <><Check className="h-3.5 w-3.5" /><span>{language === 'bg' ? 'Копирано!' : 'Copied!'}</span></>
+                    : <><Share2 className="h-3.5 w-3.5" /><span>{language === 'bg' ? 'Сподели' : 'Share'}</span></>}
+                </button>
+                <button 
+                  onClick={() => {
+                    setSelectedProperty(null);
+                    if (onClearListingUrl) onClearListingUrl();
+                  }}
+                  className="text-slate-300 hover:text-white bg-white/5 hover:bg-white/10 p-1.5 rounded-full transition-colors"
+                  id="close-modal-btn"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
             </div>
 
             {/* Scrollable Modal Content */}

@@ -9,6 +9,7 @@ import { Booking } from './components/Booking';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Services } from './components/Services';
+import { SeoHead } from './components/SeoHead';
 
 import { Language, ViewType, Property } from './types';
 import { properties, translations, blogPosts } from './data/mockData';
@@ -16,8 +17,12 @@ import { Maximize2, BedDouble, Bath, Calendar, ChevronRight, Phone, Clock, Arrow
 
 export default function App() {
   const [language, setLanguage] = useState<Language>('bg');
-  const [currentView, setView] = useState<ViewType>('home');
   const [searchParams, setSearchParams] = useSearchParams();
+  const [currentView, setView] = useState<ViewType>(() => {
+    const requestedView = searchParams.get('view');
+    const supportedViews: ViewType[] = ['home', 'listings', 'services', 'blog', 'consultation', 'contact'];
+    return supportedViews.includes(requestedView as ViewType) ? requestedView as ViewType : 'home';
+  });
 
   // Search parameters pre-loaded from Hero search to Listings portfolio
   const [initialSearchQuery, setInitialSearchQuery] = useState('');
@@ -42,6 +47,9 @@ export default function App() {
   const urlListingProperty = urlListingId
     ? properties.find(p => String(p.id) === urlListingId) || null
     : null;
+
+  // Keep document metadata and structured data aligned with the visible localized view.
+  const selectedListingId = urlListingProperty?.id ?? null;
 
   // When a listing URL is detected, switch to listings view
   useEffect(() => {
@@ -80,6 +88,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans selection:bg-[#C5A059] selection:text-[#1A2B3C]" id="bell-estate-root">
+      <SeoHead language={language} view={currentView} listingId={selectedListingId} />
       
       {/* 100% Bilingual Header Navigation bar with language switcher */}
       <Header 

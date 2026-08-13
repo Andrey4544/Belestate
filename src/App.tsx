@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { WhyTrustUs } from './components/WhyTrustUs';
@@ -14,9 +14,12 @@ import { SeoHead } from './components/SeoHead';
 import { Language, ViewType, Property } from './types';
 import { properties, translations, blogPosts } from './data/mockData';
 import { Maximize2, BedDouble, Bath, Calendar, ChevronRight, Phone, Clock, ArrowRight, ShieldCheck, Building2 } from 'lucide-react';
+import { listingPath } from './lib/seo';
 
 export default function App() {
   const [language, setLanguage] = useState<Language>('bg');
+  const location = useLocation();
+  const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const [currentView, setView] = useState<ViewType>(() => {
     const requestedView = searchParams.get('view');
@@ -42,8 +45,11 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [currentView]);
 
-  // Sync URL ?listing=id with the Properties modal
-  const urlListingId = searchParams.get('listing');
+  // Support permanent listing paths as well as legacy ?listing=id links.
+  const listingSourceIdFromPath = location.pathname.match(/^\/imot\/([^/]+)/)?.[1]?.split('-')[0] ?? null;
+  const urlListingId = listingSourceIdFromPath
+    ? String(properties.find(property => property.sourceId === listingSourceIdFromPath)?.id ?? '')
+    : searchParams.get('listing');
   const urlListingProperty = urlListingId
     ? properties.find(p => String(p.id) === urlListingId) || null
     : null;
@@ -60,13 +66,22 @@ export default function App() {
 
   // Helper to navigate to a listing URL
   const openListingUrl = (propertyId: number) => {
-    setSearchParams({ listing: String(propertyId) });
+    const property = properties.find(item => item.id === propertyId);
+    if (property) {
+      navigate(listingPath(property));
+    } else {
+      setSearchParams({ listing: String(propertyId) });
+    }
     setView('listings');
   };
 
   // Helper to clear listing URL
   const clearListingUrl = () => {
-    setSearchParams({});
+    if (listingSourceIdFromPath) {
+      navigate('/?view=listings');
+    } else {
+      setSearchParams({});
+    }
   };
 
   // Handle search submit on hero

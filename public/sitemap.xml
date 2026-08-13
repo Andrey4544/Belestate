@@ -1,9 +1,2387 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.belestategroup.site/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.belestategroup.site/?view=listings</loc><priority>0.9</priority><changefreq>daily</changefreq></url>
-  <url><loc>https://www.belestategroup.site/?view=services</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.belestategroup.site/?view=blog</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://www.belestategroup.site/?view=consultation</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://www.belestategroup.site/?view=contact</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.belestategroup.site/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/?view=listings</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/?view=services</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/?view=blog</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/?view=consultation</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/?view=contact</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178661864587263-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/263//big/1r178661864587263_dC.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r166315875524064-prodava-partsel-partsel-markovo-spa-hotel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/064//big1/1r166315875524064_FP.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково спа Хотел Марково — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r165337411571928-prodava-partsel-partsel-belashtitsa-vilna-zona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/928//big1/1r165337411571928_q5.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Белащица вилна зона — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/928//big1/1r165337411571928_fd.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Белащица вилна зона — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j175638282726497-prodava-kashta-kashta-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_GE.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_km.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_u8.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_1m.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_up.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_wU.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_v8.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/497//big1/1j175638282726497_f5.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177132189625865-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/865//big/1c177132189625865_f8.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j170860198776171-prodava-kashta-kashta-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_w2.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_MB.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_dX.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_Kt.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_EQ.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_Jm.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_eM.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_ve.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_31.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/171//big1/1j170860198776171_23.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Първенец — снимка 10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178332883526302-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_E0.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_1a.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_D1.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_Bc.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_mF.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_iL.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_uB.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_xp.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_bE.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_dX.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big1/1r178332883526302_iq.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big/1r178332883526302_E8.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/302//big/1r178332883526302_aB.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски м.Перето — снимка 13</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178343047951857-prodava-partsel-partsel-brestnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/857//big1/1r178343047951857_Z0.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177123625132127-prodava-partsel-partsel-parvenets-stadiona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/127//big1/1r177123625132127_13.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец стадиона — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178343136776428-prodava-partsel-partsel-brestnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/428//big1/1r178343136776428_4V.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178350113422712-prodava-partsel-partsel-brestnik-v-rayona-na-hotel-berkut</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/712//big1/1r178350113422712_2G.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник в района на хотел Беркут — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/712//big1/1r178350113422712_eY.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник в района на хотел Беркут — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/712//big1/1r178350113422712_54.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник в района на хотел Беркут — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/712//big1/1r178350113422712_wy.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник в района на хотел Беркут — снимка 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178092161905759-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/759//big1/1r178092161905759_ny.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/759//big1/1r178092161905759_XP.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1p176486051825283-prodava-prom-pomeshtenie-prom-pomeshtenie-tsaratsovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_dV.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_JL.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_OH.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_gs.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_aE.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_gE.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_Za.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_b7.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_Qg.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_GP.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_3S.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_e1.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_jB.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_h5.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_If.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_vL.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 16</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/283//big1/1p176486051825283_Wf.jpg</image:loc>
+      <image:title>Продава ПРОМ. ПОМЕЩЕНИЕ — област Пловдив, с. Царацово — снимка 17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1m168327262866856-prodava-zavedenie-zavedenie-saedinenie</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_23.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_Oa.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_Jy.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_wS.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_v9.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_Dk.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_9Y.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_eB.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_TS.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_U0.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_JJ.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_Mw.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_rd.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_gy.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_ML.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/856//big1/1m168327262866856_oa.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j177375059142448-prodava-kashta-kashta-galabovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_5y.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_SH.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_4v.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_gv.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_xO.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_B7.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_HP.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_hZ.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/448//big1/1j177375059142448_44.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Гълъбово — снимка 9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j175129899584929-prodava-kashta-kashta-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_nj.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_bm.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_31.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Uu.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_CE.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Y.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_YB.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_QR.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_2A.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Wd.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Lo.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_fo.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_HJ.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_xM.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Lr.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/929//big1/1j175129899584929_Ev.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Марково — снимка 16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c174349266611705-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_1t.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_tv.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_W2.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_85.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_jI.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_vZ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_Rk.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_Fm.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_9m.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_tr.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_2b.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/705//big1/1c174349266611705_mx.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Остромила — снимка 12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c169581197452645-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_4A.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_a0.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_Ke.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_yF.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_G6.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_dl.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_xq.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_ds.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/645//big1/1c169581197452645_EY.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b177124323922116-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/116//big1/1b177124323922116_m.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c178575607565409-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_aK.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_d2.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_FM.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_bD.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_SA.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_GY.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_e5.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_B7.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_tP.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_cf.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/409//big1/1c178575607565409_p7.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Пещерско шосе — снимка 11</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c178575591832114-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_tV.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_uZ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_yq.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_1O.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_Mg.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_VL.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_IM.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_3j.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_JH.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_VQ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/114//big1/1c178575591832114_oJ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 11</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/2q175517206148416-dava-pod-naem-prom-pomeshtenie-prom-pomeshtenie-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Dc.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_zX.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Aq.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Mi.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_eP.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_bV.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_bZ.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_lt.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Zl.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Dy.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_J4.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_Fr.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_e1.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_vv.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/416//big1/2q175517206148416_r4.jpg</image:loc>
+      <image:title>Дава под Наем ПРОМ. ПОМЕЩЕНИЕ — град Пловдив, Индустриална зона - Юг околовръстното шосе — снимка 15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/2d178004228708782-dava-pod-naem-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_sB.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_yu.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_t4.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_DG.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_sC.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_y2.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_3v.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_aZ.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_3a.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/2/782//big1/2d178004228708782_Zr.jpg</image:loc>
+      <image:title>Дава под Наем 3-СТАЕН — град Пловдив, Център Медицински Университет — снимка 10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/2c177461708453824-dava-pod-naem-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_S8.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_qH.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_mY.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_eZ.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_I9.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_5m.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_ro.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_Jl.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_c7.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_Rr.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_rq.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_Tu.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_BC.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_N0.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/824//big1/2c177461708453824_8d.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Младежки Хълм ВМИ — снимка 15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178299563137652-prodava-partsel-partsel-markovo-nad-stadiona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/652//big1/1r178299563137652_xn.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково Над стадиона — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175758791467743-prodava-partsel-partsel-markovo-m-komsala</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/743//big1/1r175758791467743_h6.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/743//big1/1r175758791467743_wu.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/743//big1/1r175758791467743_tk.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178299531500064-prodava-partsel-partsel-markovo-stadiona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/064//big1/1r178299531500064_Ys.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково Стадиона — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j175284240143618-prodava-kashta-kashta-shabla</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_gV.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_BP.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_RM.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_g6.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_JF.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_ah.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_dZ.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_wd.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_45.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/618//big1/1j175284240143618_70.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Добрич, гр. Шабла — снимка 10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177323053248003-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/003//big1/1c177323053248003_P9.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c176829487729887-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_xA.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_LF.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_rH.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_Rx.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_aw.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_To.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_b8.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_jK.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_wX.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_Vy.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_ps.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_c1.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_mV.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_Et.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/887//big1/1c176829487729887_21.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Гагарин — снимка 15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177037998163640-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/640//big/1c177037998163640_P5.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/640//big/1c177037998163640_jJ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/640//big1/1c177037998163640_Rf.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177038091018596-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/596//big/1c177038091018596_8L.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/596//big/1c177038091018596_bh.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/596//big1/1c177038091018596_yH.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177322894765759-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_ln.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_6A.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_9c.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_GN.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_lz.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_ey.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_jA.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_13.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_D7.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_Nv.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_lo.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_rs.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_Uo.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_20.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_pT.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_OP.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 16</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/759//big1/1c177322894765759_h6.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Кършияка бул.България — снимка 17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c177323191424810-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/810//big1/1c177323191424810_YL.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Тракия — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b177322835664830-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_jC.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_w1.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_Mg.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_Oa.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_jK.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_JK.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_cq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_DF.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_ni.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_rq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_Xt.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_fq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_Uq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_m6.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_rE.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_84.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 16</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/830//big1/1b177322835664830_30.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кършияка — снимка 17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b177323305571671-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/671//big1/1b177323305571671_J8.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Тракия Бирария Йегерхоф — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b177038194370487-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/487//big/1b177038194370487_Dx.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Христо Смирненски — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/487//big/1b177038194370487_CY.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Христо Смирненски — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177789519152686-prodava-partsel-partsel-markovo-m-pichkovets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_q1.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_WN.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_qr.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_wv.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_hS.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/686//big1/1r177789519152686_qI.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Пичковец — снимка 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178524874477514-prodava-partsel-partsel-markovo-stadiona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/514//big1/1r178524874477514_1l.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково Стадиона — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r176518935402975-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/975//big1/1r176518935402975_QS.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177245159603021-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/021//big/1r177245159603021_Si.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/021//big1/1r177245159603021_fA.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/021//big1/1r177245159603021_wx.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/021//big1/1r177245159603021_sv.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/021//big1/1r177245159603021_gk.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r176224605943371-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r176234990367903-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177246005789257-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/257//big1/1r177246005789257_CL.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/257//big1/1r177246005789257_Xq.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/257//big1/1r177246005789257_yo.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/257//big1/1r177246005789257_LQ.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175223186458223-prodava-partsel-partsel-voyvodinovo-vladimirov-chiflik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/223//big1/1r175223186458223_mZ.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Войводиново ВЛАДИМИРОВ ЧИФЛИК — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171592907385689-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/689//big1/1r171592907385689_4b.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Индустриална зона - Изток Главния път за гр.Харманл — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1q171742639238577-prodava-hotel-hotel-narechenski-bani-tsentar</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/577//big/1q171742639238577_tW.jpg</image:loc>
+      <image:title>Продава ХОТЕЛ — област Пловдив, с. Нареченски бани център — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/577//big1/1q171742639238577_Lx.jpg</image:loc>
+      <image:title>Продава ХОТЕЛ — област Пловдив, с. Нареченски бани център — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/577//big1/1q171742639238577_Vn.jpg</image:loc>
+      <image:title>Продава ХОТЕЛ — област Пловдив, с. Нареченски бани център — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1m170963215660873-prodava-zavedenie-zavedenie-saedinenie</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_z2.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_rA.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_O.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_t9.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_XI.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_uB.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_pC.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_2n.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_4W.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_KD.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_FG.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_Il.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_Cc.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_Ff.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_dS.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_Vh.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 16</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/873//big1/1m170963215660873_ii.jpg</image:loc>
+      <image:title>Продава ЗАВЕДЕНИЕ — област Пловдив, гр. Съединение — снимка 17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1l155368396059546-prodava-magazin-magazin-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/546//big1/1l155368396059546_DH.jpg</image:loc>
+      <image:title>Продава МАГАЗИН — град Пловдив, Център Централна гара — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/546//big1/1l155368396059546_wt.jpg</image:loc>
+      <image:title>Продава МАГАЗИН — град Пловдив, Център Централна гара — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/546//big1/1l155368396059546_NO.jpg</image:loc>
+      <image:title>Продава МАГАЗИН — град Пловдив, Център Централна гара — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/546//big1/1l155368396059546_ZT.jpg</image:loc>
+      <image:title>Продава МАГАЗИН — град Пловдив, Център Централна гара — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/546//big1/1l155368396059546_7C.jpg</image:loc>
+      <image:title>Продава МАГАЗИН — град Пловдив, Център Централна гара — снимка 5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c178471070311840-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//big1/1c178471070311840_HM.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//big1/1c178471070311840_nw.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//big1/1c178471070311840_je.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//big1/1c178471070311840_XI.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//big1/1c178471070311840_vb.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_E2.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_vF.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_8z.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_2s.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_pI.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_2o.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_Ar.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_KF.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_3p.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_jw.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/840//1c178471070311840_Qy.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Коматевско шосе Бензиностанция Ромпетрол — снимка 16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b178470775131234-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_PJ.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_oN.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_4Y.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_7x.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_Lc.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/234//big1/1b178470775131234_Oq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Младежки Хълм Медицински Университет — снимка 6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/2c159913071658262-dava-pod-naem-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_br.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_yc.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_JU.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_OZ.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_Xv.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_9x.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_zq.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_Ui.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_DL.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_P7.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_76.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_VZ.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_bh.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_SZ.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_Hh.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/2/262//big/2c159913071658262_PB.jpg</image:loc>
+      <image:title>Дава под Наем 2-СТАЕН — град Пловдив, Въстанически Билла 3 — снимка 16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1k178177986770990-prodava-vila-vila-hrabrino-vtora-vilna-zona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_1r.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_WG.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_1N.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_hT.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_aS.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_d1.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_jy.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_PF.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_pB.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_jd.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_h1.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/990//big1/1k178177986770990_Pp.jpg</image:loc>
+      <image:title>Продава ВИЛА — област Пловдив, с. Храбрино Втора Вилна Зона — снимка 12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1b173883582476864-prodava-2-staen-2-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_X5.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_G3.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_7Y.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_xq.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_n4.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_gJ.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_iA.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_45.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_Fs.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_Dv.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_te.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/864//big1/1b173883582476864_ZS.jpg</image:loc>
+      <image:title>Продава 2-СТАЕН — град Пловдив, Кючук Париж ул.Студенец — снимка 12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177919726774611-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/611//big1/1r177919726774611_Tt.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Индустриална зона - Юг Асеновградско шосе — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/611//big1/1r177919726774611_Bt.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Индустриална зона - Юг Асеновградско шосе — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171592872037259-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/259//big1/1r171592872037259_1t.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Индустриална зона - Изток Главния път за гр.Харманл — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r164370731240652-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/652//big/1r164370731240652_KM.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/652//big/1r164370731240652_zT.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r174349362443755-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r176096042256860-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175801685872224-prodava-partsel-partsel-markovo-mezhdu-markovo-i-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/224//big1/1r175801685872224_iC.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково между Марково и Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r172657655510435-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Пещерско шосе пътя за Оризари — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175758790104724-prodava-partsel-partsel-markovo-m-komsala</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/724//big1/1r175758790104724_v.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/724//big1/1r175758790104724_SX.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/724//big1/1r175758790104724_bV.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Комсала — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r172042198441701-prodava-partsel-partsel-markovo-m-gerena</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково м.Герена — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r170066048227909-prodava-partsel-partsel-brestnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171083949235692-prodava-partsel-partsel-tsalapitsa</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/692//big/1r171083949235692_x6.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Цалапица — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r172984608859242-prodava-partsel-partsel-markovo-mezhdu-markovo-i-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково между Марково и Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175801993842463-prodava-partsel-partsel-markovo-institut-po-tyutyun</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/463//big1/1r175801993842463_VM.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково Институт по Тютюн — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r164984056363331-prodava-partsel-partsel-brestovitsa-iztochnata-chast-na-seloto</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестовица източната част на селото — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r169528024931164-prodava-partsel-partsel-brestnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/164//big1/1r169528024931164_Hh.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/164//big1/1r169528024931164_zy.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r176398505758235-prodava-partsel-partsel-markovo-mezhdu-markovo-i-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/235//big1/1r176398505758235_Z1.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково между Марково и Първенец — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/235//big1/1r176398505758235_Y8.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково между Марково и Първенец — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r174176915414685-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/685//big/1r174176915414685_sO.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Беломорски — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177667604985156-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r174229464493752-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r172258594270145-prodava-partsel-partsel-trilistnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, магистрала Тракия с.Трилистник — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r173435159059536-prodava-partsel-partsel-brestovitsa</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/536//big1/1r173435159059536_L0.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестовица — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/536//big1/1r173435159059536_CW.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестовица — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r167766331688982-prodava-partsel-partsel-hrabrino-patya-za-izvor</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/982//big1/1r167766331688982_WM.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Храбрино пътя за Извор — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/982//big1/1r167766331688982_yq.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Храбрино пътя за Извор — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171464053999370-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic2.focus.bg/imot/photosimotbg/1/370//big1/1r171464053999370_4R.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r119729685052912-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/912//big/1r119729685052912_1.pic</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177391873412329-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Коматево ул.Лозарска — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1j177142383476031-prodava-kashta-kashta-hrabrino-tsentar</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_2v.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_D9.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_hI.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_93.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_wM.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_qh.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_Rf.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_xG.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_py.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_TR.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_1U.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_p6.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_DB.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_uF.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/031//big1/1j177142383476031_YC.jpg</image:loc>
+      <image:title>Продава КЪЩА — област Пловдив, с. Храбрино център — снимка 15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175282818054586-prodava-partsel-partsel-parvenets</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic3.focus.bg/imot/photosimotbg/1/586//big1/1r175282818054586_kC.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Първенец — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171560205972337-prodava-partsel-partsel-cheshnegirovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic4.focus.bg/imot/photosimotbg/1/337//big1/1r171560205972337_gM.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Чешнегирово — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r171049734909809-prodava-partsel-partsel-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/809//big/1r171049734909809_1v.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Прослав — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/809//big1/1r171049734909809_YW.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — град Пловдив, Прослав — снимка 2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r178117960430448-prodava-partsel-partsel-markovo-stadiona</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково Стадиона — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r177365661244912-prodava-partsel-partsel-voyvodinovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/912//big1/1r177365661244912_ds.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Войводиново — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/912//big1/1r177365661244912_mW.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Войводиново — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://imotstatic1.focus.bg/imot/photosimotbg/1/912//big1/1r177365661244912_1A.jpg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Войводиново — снимка 3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r175343168349741-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r155143595104301-prodava-partsel-partsel-skutare</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Скутаре — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r170066089833578-prodava-partsel-partsel-brestnik</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Брестник — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r166454785814571-prodava-partsel-partsel-magistrala-trakiya</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, магистрала Тракия Цалапица — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1c174219932537574-prodava-3-staen-3-staen-plovdiv</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_Xm.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 1</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_gy.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_ZM.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_zT.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_zC.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_gR.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_d.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_1c.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 8</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_5o.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 9</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_4X.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 10</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_z7.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 11</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_P2.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 12</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_q3.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 13</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_QV.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 14</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_6a.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 15</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_VQ.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 16</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://cdn3.focus.bg/imot/photosimotbg/1/574//big1/1c174219932537574_fc.jpg</image:loc>
+      <image:title>Продава 3-СТАЕН — град Пловдив, Христо Смирненски новия Лидл — снимка 17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r168059550347090-prodava-partsel-partsel-tsalapitsa-litse-na-pazadzhishko-shose</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Цалапица лице на пазаджишко шосе — снимка 1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.belestategroup.site/imot/1r155187246739757-prodava-partsel-partsel-markovo</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.imot.bg/images/picturess/nophoto_490x341.svg</image:loc>
+      <image:title>Продава ПАРЦЕЛ — област Пловдив, с. Марково — снимка 1</image:title>
+    </image:image>
+  </url>
 </urlset>

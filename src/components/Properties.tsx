@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Search, MapPin, Maximize2, BedDouble, Bath, Calendar, X, Building2, SlidersHorizontal, ArrowUpDown, ChevronRight, CheckCircle2, Phone, Mail, Share2, Copy, Check, ExternalLink, FileText } from 'lucide-react';
 import { Language, Property, ContactInquiry } from '../types';
 import { properties, translations } from '../data/mockData';
+import { listingCanonicalUrl, listingPath } from '../lib/seo';
 
 interface PropertiesProps {
   language: Language;
@@ -55,9 +56,12 @@ export const Properties: React.FC<PropertiesProps> = ({
   const [inquiryMsg, setInquiryMsg] = useState('');
   const [inquirySuccess, setInquirySuccess] = useState(false);
 
+  const formatPrice = (property: Property) => property.priceDisplay || `${property.currency || '€'}${property.price.toLocaleString()}`;
+  const hasRooms = (property: Property) => property.rooms > 0;
+
   // Share listing helper
   const handleShareListing = useCallback((property: Property) => {
-    const url = `${window.location.origin}${window.location.pathname}?listing=${property.id}`;
+    const url = listingCanonicalUrl(property);
     if (navigator.share) {
       navigator.share({
         title: language === 'bg' ? property.titleBg : property.titleEn,
@@ -72,7 +76,7 @@ export const Properties: React.FC<PropertiesProps> = ({
         setTimeout(() => setShareCopied(false), 2500);
       }).catch(() => {});
     }
-  }, [language]);
+  }, [language, formatPrice]);
 
   // Synchronize initial search fields when they trigger from Hero
   useEffect(() => {
@@ -196,9 +200,6 @@ export const Properties: React.FC<PropertiesProps> = ({
     return translations[cityKey] || cityKey;
   };
 
-  const formatPrice = (property: Property) => property.priceDisplay || `${property.currency || '€'}${property.price.toLocaleString()}`;
-  const hasRooms = (property: Property) => property.rooms > 0;
-
   // Filter & Sort Logic — search also covers every original field retained from imot.bg.
   const filteredProperties = properties.filter((property) => {
     const title = language === 'bg' ? property.titleBg.toLowerCase() : property.titleEn.toLowerCase();
@@ -244,12 +245,12 @@ export const Properties: React.FC<PropertiesProps> = ({
           <span className="text-xs uppercase tracking-widest text-[#C5A059] font-semibold font-sans block mb-3">
             {language === 'bg' ? 'ПРОВЕРЕН КАТАЛОГ СГРАДИ' : 'CERTIFIED PORTFOLIO'}
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1A2B3C] tracking-tight mb-4">
-            {t.portfolioTitle}
-          </h2>
+          <h1 className="font-serif text-3xl sm:text-4xl font-bold text-[#1A2B3C] tracking-tight mb-4">
+            {urlOpenProperty ? `${urlOpenProperty.titleBg} — ${urlOpenProperty.locationBg}` : t.portfolioTitle}
+          </h1>
           <div className="w-16 h-1 bg-[#C5A059] mx-auto mb-5" />
           <p className="font-sans text-slate-600 text-sm sm:text-base font-light">
-            {t.portfolioSubtitle}
+            {urlOpenProperty ? (urlOpenProperty.priceDisplay || t.portfolioSubtitle) : t.portfolioSubtitle}
           </p>
         </div>
 
@@ -398,7 +399,7 @@ export const Properties: React.FC<PropertiesProps> = ({
         {/* Listings Portfolio Grid */}
         {filteredProperties.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="properties-portfolio-grid">
-            {filteredProperties.map((property) => (
+            {filteredProperties.map((property, index) => (
               <div 
                 key={property.id}
                 className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-slate-100 transition-all duration-300 hover:-translate-y-1 group flex flex-col h-full"
@@ -410,6 +411,9 @@ export const Properties: React.FC<PropertiesProps> = ({
                     src={property.image} 
                     alt={language === 'bg' ? property.titleBg : property.titleEn} 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    loading={index < 3 ? 'eager' : 'lazy'}
+                    decoding="async"
+                    fetchPriority={index === 0 ? 'high' : 'auto'}
                     referrerPolicy="no-referrer"
                   />
                   {/* Category Golden Tag */}
@@ -434,8 +438,10 @@ export const Properties: React.FC<PropertiesProps> = ({
                     </div>
 
                     {/* Title */}
-                    <h3 className="font-serif text-lg font-bold text-[#1A2B3C] tracking-tight group-hover:text-[#C5A059] transition-colors duration-200 mb-4 line-clamp-1">
-                      {language === 'bg' ? property.titleBg : property.titleEn}
+                    <h3 className="font-serif text-lg font-bold text-[#1A2B3C] tracking-tight mb-4 line-clamp-1">
+                      <a href={listingPath(property)} className="hover:text-[#C5A059] transition-colors duration-200">
+                        {language === 'bg' ? property.titleBg : property.titleEn}
+                      </a>
                     </h3>
 
                     {/* Property Specs Parameters Bar */}
@@ -487,18 +493,14 @@ export const Properties: React.FC<PropertiesProps> = ({
                       >
                         <Share2 className="h-3.5 w-3.5" />
                       </button>
-                      <button
-                        onClick={() => {
-                          setSelectedProperty(property);
-                          setActiveGalleryIndex(0);
-                          if (onOpenListingUrl) onOpenListingUrl(property.id);
-                        }}
-                        className="inline-flex items-center gap-1.5 bg-[#1A2B3C] hover:bg-[#C5A059] text-white hover:text-[#1A2B3C] px-4 py-2.5 rounded-lg text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-sm cursor-pointer"
+                      <a
+                        href={listingPath(property)}
+                        className="inline-flex items-center gap-1.5 bg-[#1A2B3C] hover:bg-[#C5A059] text-white hover:text-[#1A2B3C] px-4 py-2.5 rounded-lg text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-sm"
                         id={`view-details-btn-${property.id}`}
                       >
                         <span>{t.viewDetails}</span>
                         <ChevronRight className="h-3.5 w-3.5" />
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>

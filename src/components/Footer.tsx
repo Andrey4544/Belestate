@@ -15,6 +15,7 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
     setView(v);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  const viewHref = (view: ViewType) => view === 'home' ? '/' : `/?view=${view}`;
 
   return (
     <footer className="bg-[#0f1a24] text-slate-300 pt-16 pb-8 border-t border-[#C5A059]/20" id="main-footer">
@@ -25,14 +26,14 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
           
           {/* Col 1: Brand details - 5 cols */}
           <div className="md:col-span-5 space-y-4">
-            <div className="flex items-center gap-3 cursor-pointer" onClick={() => handleNav('home')}>
+            <a href="/" className="flex items-center gap-3 cursor-pointer" onClick={() => handleNav('home')} aria-label="BelEstateGroup — Начало">
               <div className="bg-[#C5A059] p-1.5 rounded">
                 <ShieldCheck className="h-5 w-5 text-[#1A2B3C]" />
               </div>
               <span className="font-serif text-base tracking-widest font-bold text-white uppercase">
                 BelEstateGroup
               </span>
-            </div>
+            </a>
             
             <p className="font-sans text-[11px] sm:text-xs text-slate-400 leading-relaxed font-light max-w-sm">
               {t.footerLegalInfo}
@@ -50,12 +51,12 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
               {t.footerQuickLinks}
             </span>
             <div className="flex flex-col space-y-2.5 text-xs font-sans font-light">
-              <button onClick={() => handleNav('home')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navHome}</button>
-              <button onClick={() => handleNav('listings')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navListings}</button>
-              <button onClick={() => handleNav('services')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navServices}</button>
-              <button onClick={() => handleNav('blog')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navBlog}</button>
-              <button onClick={() => handleNav('consultation')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navConsultation}</button>
-              <button onClick={() => handleNav('contact')} className="hover:text-[#C5A059] text-left transition-colors cursor-pointer">{t.navContact}</button>
+              <a href={viewHref('home')} onClick={() => handleNav('home')} className="hover:text-[#C5A059] text-left transition-colors">{t.navHome}</a>
+              <a href={viewHref('listings')} onClick={() => handleNav('listings')} className="hover:text-[#C5A059] text-left transition-colors">{t.navListings}</a>
+              <a href={viewHref('services')} onClick={() => handleNav('services')} className="hover:text-[#C5A059] text-left transition-colors">{t.navServices}</a>
+              <a href={viewHref('blog')} onClick={() => handleNav('blog')} className="hover:text-[#C5A059] text-left transition-colors">{t.navBlog}</a>
+              <a href={viewHref('consultation')} onClick={() => handleNav('consultation')} className="hover:text-[#C5A059] text-left transition-colors">{t.navConsultation}</a>
+              <a href={viewHref('contact')} onClick={() => handleNav('contact')} className="hover:text-[#C5A059] text-left transition-colors">{t.navContact}</a>
             </div>
           </div>
 
@@ -69,12 +70,13 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
                 ? 'Нашите брокери съгласуват всяко придобиване изцяло с Имотния регистър. Планирайте среща свободно.'
                 : 'Every acquisition is verified by professional national real estate attorneys prior to any initial deposit.'}
             </p>
-            <button
+            <a
+               href={viewHref('consultation')}
                onClick={() => handleNav('consultation')}
                className="w-full bg-[#C5A059] hover:bg-[#b48f48] text-[#1A2B3C] text-[10px] font-sans font-bold tracking-widest uppercase py-2.5 rounded text-center block transition-colors shadow-md"
              >
                {language === 'bg' ? 'БЕЗПЛАТНА КОНСУЛТАЦИЯ' : 'FREE CONSULTATION'}
-             </button>
+             </a>
           </div>
 
         </div>

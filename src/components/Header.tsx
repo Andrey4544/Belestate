@@ -28,6 +28,8 @@ export const Header: React.FC<HeaderProps> = ({
     setLanguage(language === 'bg' ? 'en' : 'bg');
   };
 
+  const viewHref = (view: ViewType) => view === 'home' ? '/' : `/?view=${view}`;
+
   const navItems: { view: ViewType; label: string }[] = [
     { view: 'home', label: t.navHome },
     { view: 'listings', label: t.navListings },
@@ -43,10 +45,12 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center justify-between h-20">
           
           {/* Logo Brand Brand Section */}
-          <div 
+          <a
+            href="/"
             className="flex items-center gap-3 cursor-pointer group"
             onClick={() => handleNavClick('home')}
             id="brand-logo-container"
+            aria-label="BelEstateGroup — Начало"
           >
             <div className="bg-[#C5A059] p-2 rounded-md shadow-md transition-transform duration-300 group-hover:scale-105">
               <ShieldCheck className="h-6 w-6 text-[#1A2B3C]" id="brand-logo-shield" />
@@ -59,15 +63,16 @@ export const Header: React.FC<HeaderProps> = ({
                 {language === 'bg' ? 'агенция - недвижими имоти' : 'real estate agency'}
               </span>
             </div>
-          </div>
+          </a>
 
           {/* Desktop Navigation Navigation */}
           <nav className="hidden lg:flex space-x-1 xl:space-x-4" id="desktop-nav-menu">
             {navItems.map((item) => {
               const isActive = currentView === item.view;
               return (
-                <button
+                <a
                   key={item.view}
+                  href={viewHref(item.view)}
                   onClick={() => handleNavClick(item.view)}
                   className={`px-3 py-2 text-sm font-sans tracking-wide transition-all duration-200 relative group font-medium ${
                     isActive ? 'text-[#C5A059]' : 'text-slate-300 hover:text-white'
@@ -79,7 +84,7 @@ export const Header: React.FC<HeaderProps> = ({
                   <span className={`absolute bottom-0 left-3 right-3 h-[2px] bg-[#C5A059] transform transition-transform duration-300 origin-center ${
                     isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-70'
                   }`} />
-                </button>
+                </a>
               );
             })}
           </nav>
@@ -106,13 +111,14 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             {/* Main Call to action Booking Button */}
-            <button
+            <a
+              href={viewHref('consultation')}
               onClick={() => handleNavClick('consultation')}
               className="bg-[#C5A059] hover:bg-[#b48f48] text-[#1A2B3C] px-4 py-2.5 rounded-md font-sans text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-md hover:shadow-lg font-medium active:scale-95"
               id="header-consultation-cta"
             >
               {language === 'bg' ? 'Запази Час' : 'Book Session'}
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Action Triggers */}
@@ -147,8 +153,9 @@ export const Header: React.FC<HeaderProps> = ({
             {navItems.map((item) => {
               const isActive = currentView === item.view;
               return (
-                <button
+                <a
                   key={item.view}
+                  href={viewHref(item.view)}
                   onClick={() => handleNavClick(item.view)}
                   className={`block w-full text-left px-4 py-3 rounded-md text-base font-sans tracking-wide transition-colors ${
                     isActive 
@@ -158,7 +165,7 @@ export const Header: React.FC<HeaderProps> = ({
                   id={`mobile-nav-link-${item.view}`}
                 >
                   {item.label}
-                </button>
+                </a>
               );
             })}
             
@@ -169,13 +176,14 @@ export const Header: React.FC<HeaderProps> = ({
                   0898 573 681
                 </a>
               </div>
-              <button
+              <a
+                href={viewHref('consultation')}
                 onClick={() => handleNavClick('consultation')}
                 className="w-full bg-[#C5A059] text-[#1A2B3C] py-3 rounded-md text-sm font-bold tracking-wider uppercase text-center block"
                 id="mobile-consultation-cta"
               >
                 {language === 'bg' ? 'Безплатна Консултация' : 'Free Consultation'}
-              </button>
+              </a>
             </div>
           </div>
         </div>

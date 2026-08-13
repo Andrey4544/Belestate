@@ -147,8 +147,8 @@ export default function App() {
                         />
                         <div className="absolute top-4 left-4 bg-[#1A2B3C] text-[#C5A059] px-3 py-1 text-[10px] font-sans font-bold tracking-widest uppercase rounded border border-[#C5A059]/30 rounded-full">
                           {language === 'bg' 
-                            ? (property.typeKey === 'villa' ? t.villa : property.typeKey === 'penthouse' ? t.penthouse : property.typeKey === 'apartment' ? t.apartment : t.house)
-                            : (property.typeKey === 'villa' ? t.villa : property.typeKey === 'penthouse' ? t.penthouse : property.typeKey === 'apartment' ? t.apartment : t.house)
+                            ? (property.propertyTypeBg || (property.typeKey === 'villa' ? t.villa : property.typeKey === 'penthouse' ? t.penthouse : property.typeKey === 'apartment' ? t.apartment : t.house))
+                            : (property.propertyTypeBg || (property.typeKey === 'villa' ? t.villa : property.typeKey === 'penthouse' ? t.penthouse : property.typeKey === 'apartment' ? t.apartment : t.house))
                           }
                         </div>
                       </div>
@@ -183,7 +183,7 @@ export default function App() {
                             </div>
                             <div className="flex flex-col items-center">
                               <Calendar className="h-4 w-4 text-[#C5A059] mb-1" />
-                              <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.yearBuilt}</span>
+                              <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.yearBuilt || '—'}</span>
                               <span className="uppercase text-[9px] text-slate-400 font-sans">{t.yearLabel}</span>
                             </div>
                           </div>
@@ -193,9 +193,10 @@ export default function App() {
                         <div className="flex items-center justify-between pt-2">
                           <div className="flex flex-col">
                             <span className="text-[9px] text-slate-400 uppercase font-sans tracking-wider font-semibold">{language === 'bg' ? 'ОЦЕНКА' : 'VALUATION'}</span>
-                            <span className="font-serif text-lg font-bold text-[#1A2B3C]">
-                              €{property.price.toLocaleString()}
-                            </span>
+                                                          <span className="font-serif text-lg font-bold text-[#1A2B3C]">
+                              {property.priceDisplay || `€${property.price.toLocaleString()}`}
+                              </span>
+
                           </div>
                           
                           <button

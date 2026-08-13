@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, MapPin, Maximize2, BedDouble, Bath, Calendar, X, Building2, SlidersHorizontal, ArrowUpDown, ChevronRight, CheckCircle2, Phone, Mail, Share2, Copy, Check } from 'lucide-react';
+import { Search, MapPin, Maximize2, BedDouble, Bath, Calendar, X, Building2, SlidersHorizontal, ArrowUpDown, ChevronRight, CheckCircle2, Phone, Mail, Share2, Copy, Check, ExternalLink, FileText } from 'lucide-react';
 import { Language, Property, ContactInquiry } from '../types';
 import { properties, translations } from '../data/mockData';
 
@@ -62,8 +62,8 @@ export const Properties: React.FC<PropertiesProps> = ({
       navigator.share({
         title: language === 'bg' ? property.titleBg : property.titleEn,
         text: language === 'bg'
-          ? `Разгледайте този имот: ${property.titleBg} – €${property.price.toLocaleString()}`
-          : `Check out this property: ${property.titleEn} – €${property.price.toLocaleString()}`,
+          ? `Разгледайте този имот: ${property.titleBg} – ${formatPrice(property)}`
+          : `Check out this property: ${property.titleEn} – ${formatPrice(property)}`,
         url
       }).catch(() => {});
     } else {
@@ -102,7 +102,7 @@ export const Properties: React.FC<PropertiesProps> = ({
       body: JSON.stringify({
         _subject: `Ново Запитване за Имот: ${title}`,
         "Избран Имот / Property": title,
-        "Цена / Price": `€${property.price.toLocaleString()}`,
+        "Цена / Price": formatPrice(property),
         "Име на контакт / Contact Name": inquiryName,
         "Имейл / Email": inquiryEmail,
         "Телефон / Phone": inquiryPhone,
@@ -196,16 +196,23 @@ export const Properties: React.FC<PropertiesProps> = ({
     return translations[cityKey] || cityKey;
   };
 
-  // Filter & Sort Logic
+  const formatPrice = (property: Property) => property.priceDisplay || `${property.currency || '€'}${property.price.toLocaleString()}`;
+  const hasRooms = (property: Property) => property.rooms > 0;
+
+  // Filter & Sort Logic — search also covers every original field retained from imot.bg.
   const filteredProperties = properties.filter((property) => {
     const title = language === 'bg' ? property.titleBg.toLowerCase() : property.titleEn.toLowerCase();
     const description = language === 'bg' ? property.descriptionBg.toLowerCase() : property.descriptionEn.toLowerCase();
     const location = language === 'bg' ? property.locationBg.toLowerCase() : property.locationEn.toLowerCase();
+    const sourceText = property.sourceText.toLowerCase();
+    const parameters = property.parameters.map(parameter => `${parameter.label} ${parameter.value}`).join(' ').toLowerCase();
     const searchQuery = search.toLowerCase();
 
     const matchesSearch = title.includes(searchQuery) || 
                           description.includes(searchQuery) || 
-                          location.includes(searchQuery);
+                          location.includes(searchQuery) ||
+                          sourceText.includes(searchQuery) ||
+                          parameters.includes(searchQuery);
 
     const matchesType = selectedType === 'all' || property.typeKey === selectedType;
     const matchesCity = selectedCity === 'all' || property.cityKey === selectedCity;
@@ -407,11 +414,11 @@ export const Properties: React.FC<PropertiesProps> = ({
                   />
                   {/* Category Golden Tag */}
                   <div className="absolute top-4 left-4 bg-[#1A2B3C] text-[#C5A059] px-3.5 py-1 text-[10px] font-sans font-bold tracking-widest uppercase rounded border border-[#C5A059]/30 rounded-full shadow-md">
-                    {getPropertyTypeLabel(property.typeKey)}
+                    {property.propertyTypeBg || getPropertyTypeLabel(property.typeKey)}
                   </div>
-                  {/* Energy standard status in top-right */}
-                  <div className="absolute top-4 right-4 bg-emerald-600 border border-emerald-500 text-white px-2 py-0.5 rounded-full text-[9px] font-mono tracking-wider uppercase font-bold">
-                    Class A+
+                  {/* Original transaction label from imot.bg */}
+                  <div className="absolute top-4 right-4 bg-white/95 border border-[#C5A059]/50 text-[#1A2B3C] px-2 py-0.5 rounded-full text-[9px] font-mono tracking-wider uppercase font-bold">
+                    {property.transactionBg}
                   </div>
                   {/* Transparent overlay */}
                   <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-slate-900/60 to-transparent" />
@@ -432,29 +439,29 @@ export const Properties: React.FC<PropertiesProps> = ({
                     </h3>
 
                     {/* Property Specs Parameters Bar */}
-                    <div className={`grid ${['apartment', 'house', 'villa', 'penthouse'].includes(property.typeKey) ? 'grid-cols-4' : 'grid-cols-2'} gap-2 py-4 border-t border-b border-slate-100 mb-5 text-center`}>
+                    <div className={`grid ${hasRooms(property) ? 'grid-cols-4' : 'grid-cols-2'} gap-2 py-4 border-t border-b border-slate-100 mb-5 text-center`}>
                       <div className="flex flex-col items-center">
                         <Maximize2 className="h-4.5 w-4.5 text-[#C5A059] mb-1.5" />
                         <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.sqMeters}</span>
                         <span className="text-[9px] text-[#333333] font-sans uppercase font-medium">{t.sqmLabel}</span>
                       </div>
-                      {['apartment', 'house', 'villa', 'penthouse'].includes(property.typeKey) && (
+                      {hasRooms(property) && (
                         <>
                           <div className="flex flex-col items-center">
                             <BedDouble className="h-4.5 w-4.5 text-[#C5A059] mb-1.5" />
-                            <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.rooms}</span>
+                            <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.rooms || '—'}</span>
                             <span className="text-[9px] text-[#333333] font-sans uppercase font-medium">{t.roomsLabel}</span>
                           </div>
                           <div className="flex flex-col items-center">
                             <Bath className="h-4.5 w-4.5 text-[#C5A059] mb-1.5" />
-                            <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.bathrooms}</span>
+                            <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.bathrooms || '—'}</span>
                             <span className="text-[9px] text-[#333333] font-sans uppercase font-medium">{t.bathroomsLabel}</span>
                           </div>
                         </>
                       )}
                       <div className="flex flex-col items-center">
                         <Calendar className="h-4.5 w-4.5 text-[#C5A059] mb-1.5" />
-                        <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.yearBuilt}</span>
+                        <span className="font-mono text-xs font-bold text-[#1A2B3C]">{property.yearBuilt || '—'}</span>
                         <span className="text-[9px] text-[#333333] font-sans uppercase font-medium">{t.yearLabel}</span>
                       </div>
                     </div>
@@ -467,7 +474,7 @@ export const Properties: React.FC<PropertiesProps> = ({
                         {language === 'bg' ? 'ИНВЕСТИЦИЯ' : 'VALUATION'}
                       </span>
                       <span className="font-serif text-lg sm:text-xl font-bold text-[#1A2B3C]">
-                        €{property.price.toLocaleString()}
+                        {formatPrice(property)}
                       </span>
                     </div>
 
@@ -537,7 +544,7 @@ export const Properties: React.FC<PropertiesProps> = ({
             {/* Modal sticky bar */}
             <div className="sticky top-0 bg-[#1A2B3C] text-white px-6 py-4 flex items-center justify-between border-b border-[#C5A059]/20 z-20">
               <span className="font-serif text-sm tracking-widest font-bold text-[#C5A059] uppercase">
-                {getPropertyTypeLabel(selectedProperty.typeKey)}
+                {selectedProperty.propertyTypeBg || getPropertyTypeLabel(selectedProperty.typeKey)}
               </span>
               <div className="flex items-center gap-2">
                 {/* Share button in modal header */}
@@ -615,7 +622,7 @@ export const Properties: React.FC<PropertiesProps> = ({
                     {language === 'bg' ? 'ОЦЕНКА НА ИМОТА' : 'ESTIMATE VALUATION'}
                   </span>
                   <span className="font-serif text-2xl font-bold text-[#1A2B3C]">
-                    €{selectedProperty.price.toLocaleString()}
+                    {formatPrice(selectedProperty)}
                   </span>
                 </div>
               </div>
@@ -635,7 +642,7 @@ export const Properties: React.FC<PropertiesProps> = ({
                 <h4 className="font-serif text-sm font-bold text-[#1A2B3C] uppercase tracking-wide">
                   {t.specificationsTitle}
                 </h4>
-                <div className={`grid grid-cols-2 ${['apartment', 'house', 'villa', 'penthouse'].includes(selectedProperty.typeKey) ? 'sm:grid-cols-4' : 'sm:grid-cols-2'} gap-4 text-center mt-2`}>
+                <div className={`grid grid-cols-2 ${hasRooms(selectedProperty) ? 'sm:grid-cols-4' : 'sm:grid-cols-2'} gap-4 text-center mt-2`}>
                   <div className="bg-white p-3 rounded-lg shadow-sm border border-slate-100">
                     <span className="text-[10px] text-slate-400 uppercase font-sans font-semibold tracking-wider block mb-1">
                       {language === 'bg' ? 'Квадратура' : 'Square Area'}
@@ -644,14 +651,14 @@ export const Properties: React.FC<PropertiesProps> = ({
                       {selectedProperty.sqMeters} {t.sqmLabel}
                     </span>
                   </div>
-                  {['apartment', 'house', 'villa', 'penthouse'].includes(selectedProperty.typeKey) && (
+                  {hasRooms(selectedProperty) && (
                     <>
                       <div className="bg-white p-3 rounded-lg shadow-sm border border-slate-100">
                         <span className="text-[10px] text-slate-400 uppercase font-sans font-semibold tracking-wider block mb-1">
                           {language === 'bg' ? 'Помещения' : 'Rooms Count'}
                         </span>
                         <span className="font-mono text-sm font-bold text-[#1A2B3C]">
-                          {selectedProperty.rooms} {t.roomsLabel}
+                          {selectedProperty.rooms || '—'} {t.roomsLabel}
                         </span>
                       </div>
                       <div className="bg-white p-3 rounded-lg shadow-sm border border-slate-100">
@@ -659,7 +666,7 @@ export const Properties: React.FC<PropertiesProps> = ({
                           {language === 'bg' ? 'Санитарни възли' : 'Bathrooms'}
                         </span>
                         <span className="font-mono text-sm font-bold text-[#1A2B3C]">
-                          {selectedProperty.bathrooms} {t.bathroomsLabel}
+                          {selectedProperty.bathrooms || '—'} {t.bathroomsLabel}
                         </span>
                       </div>
                     </>
@@ -669,10 +676,70 @@ export const Properties: React.FC<PropertiesProps> = ({
                       {language === 'bg' ? 'Построена' : 'Year Built'}
                     </span>
                     <span className="font-mono text-sm font-bold text-[#1A2B3C]">
-                      {selectedProperty.yearBuilt}
+                      {selectedProperty.yearBuilt || '—'}
                     </span>
                   </div>
                 </div>
+              </div>
+
+              {/* Complete original parameters and source metadata */}
+              <div className="space-y-5 bg-white border border-slate-200 p-6 rounded-xl" id="original-source-details">
+                <div className="flex items-center justify-between gap-3">
+                  <h4 className="font-serif text-sm font-bold text-[#1A2B3C] uppercase tracking-wide">
+                    {language === 'bg' ? 'Всички данни от imot.bg' : 'Complete imot.bg details'}
+                  </h4>
+                  <a
+                    href={selectedProperty.sourceUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-[#C5A059] hover:text-[#1A2B3C]"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" />
+                    {language === 'bg' ? 'Оригинална обява' : 'Original listing'}
+                  </a>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {selectedProperty.parameters.map((parameter, idx) => (
+                    <div key={`${parameter.label}-${idx}`} className="bg-slate-50 border border-slate-100 rounded-lg p-3">
+                      <span className="block text-[10px] uppercase tracking-wider text-slate-400 font-semibold mb-1">{parameter.label}</span>
+                      <span className="text-xs text-[#1A2B3C] font-medium whitespace-pre-line">{parameter.value}</span>
+                    </div>
+                  ))}
+                  {selectedProperty.pricePerSqm && (
+                    <div className="bg-slate-50 border border-slate-100 rounded-lg p-3">
+                      <span className="block text-[10px] uppercase tracking-wider text-slate-400 font-semibold mb-1">{language === 'bg' ? 'Цена на квадратен метър' : 'Price per square meter'}</span>
+                      <span className="text-xs text-[#1A2B3C] font-medium">{selectedProperty.pricePerSqm}</span>
+                    </div>
+                  )}
+                  {selectedProperty.vatStatus && (
+                    <div className="bg-slate-50 border border-slate-100 rounded-lg p-3">
+                      <span className="block text-[10px] uppercase tracking-wider text-slate-400 font-semibold mb-1">{language === 'bg' ? 'ДДС' : 'VAT'}</span>
+                      <span className="text-xs text-[#1A2B3C] font-medium">{selectedProperty.vatStatus}</span>
+                    </div>
+                  )}
+                </div>
+
+                <div className="flex flex-wrap gap-x-5 gap-y-2 text-[11px] text-slate-500 border-t border-slate-100 pt-4">
+                  {selectedProperty.publishedAt && <span><strong className="text-[#1A2B3C]">{language === 'bg' ? 'Публикувана:' : 'Published:'}</strong> {selectedProperty.publishedAt}</span>}
+                  {selectedProperty.views !== null && <span><strong className="text-[#1A2B3C]">{language === 'bg' ? 'Посещения:' : 'Views:'}</strong> {selectedProperty.views}</span>}
+                  <span><strong className="text-[#1A2B3C]">{language === 'bg' ? 'ID:' : 'ID:'}</strong> {selectedProperty.sourceId}</span>
+                </div>
+
+                <div className="bg-slate-50 border border-slate-100 rounded-lg p-4 text-xs text-slate-600 space-y-1.5">
+                  <p><strong className="text-[#1A2B3C]">{selectedProperty.agencyName}</strong></p>
+                  {selectedProperty.contactPhone && <p><Phone className="inline h-3.5 w-3.5 text-[#C5A059] mr-1" />{selectedProperty.contactPhone}</p>}
+                  {selectedProperty.agencyPhones && <p>{selectedProperty.agencyPhones}</p>}
+                  {selectedProperty.agencyAddress && <p>{selectedProperty.agencyAddress}</p>}
+                </div>
+
+                <details className="border-t border-slate-100 pt-4">
+                  <summary className="cursor-pointer inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#1A2B3C]">
+                    <FileText className="h-4 w-4 text-[#C5A059]" />
+                    {language === 'bg' ? 'Пълно съдържание от оригиналната страница' : 'Complete original source text'}
+                  </summary>
+                  <p className="mt-4 text-[11px] leading-relaxed text-slate-500 whitespace-pre-line">{selectedProperty.sourceText}</p>
+                </details>
               </div>
 
               {/* Rich Features checklist */}
@@ -681,12 +748,16 @@ export const Properties: React.FC<PropertiesProps> = ({
                   {t.featuresTitle}
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3" id="features-list-grid">
-                  {(language === 'bg' ? selectedProperty.featuresBg : selectedProperty.featuresEn).map((feature, idx) => (
-                    <div key={idx} className="flex items-center gap-2 text-xs font-sans text-slate-600 font-medium">
-                      <CheckCircle2 className="h-4.5 w-4.5 text-[#C5A059] flex-shrink-0" />
-                      <span>{feature}</span>
-                    </div>
-                  ))}
+                  {(language === 'bg' ? selectedProperty.featuresBg : selectedProperty.featuresEn).length > 0 ? (
+                    (language === 'bg' ? selectedProperty.featuresBg : selectedProperty.featuresEn).map((feature, idx) => (
+                      <div key={idx} className="flex items-center gap-2 text-xs font-sans text-slate-600 font-medium">
+                        <CheckCircle2 className="h-4.5 w-4.5 text-[#C5A059] flex-shrink-0" />
+                        <span>{feature}</span>
+                      </div>
+                    ))
+                  ) : (
+                    <p className="text-xs text-slate-400">{language === 'bg' ? 'В източника няма отделно изброени особености.' : 'No separate features were listed in the source.'}</p>
+                  )}
                 </div>
               </div>
 

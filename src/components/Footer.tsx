@@ -102,7 +102,7 @@ export const Footer: React.FC<FooterProps> = ({ language, setView }) => {
         </div>
 
       </div>
-    <div className="pt-3 text-center text-[11px] opacity-75"><a href="https://ar-studio.site" className="hover:underline">Website made by AR Studio</a></div>
+    <div className="pt-4 text-center"><a href="https://ar-studio.site" className="inline-flex items-center justify-center rounded-full border border-current/40 px-4 py-2 text-sm font-semibold underline underline-offset-2 transition-colors hover:bg-current/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2">Website made by AR Studio</a></div>
     </footer>
   );
 };

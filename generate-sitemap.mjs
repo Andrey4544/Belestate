@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const SITE_URL = 'https://www.belestategroup.site';
+const SITE_URL = 'https://www.belestategroup.online';
 const source = await readFile(new URL('./src/data/mockData.ts', import.meta.url), 'utf8');
 const prefix = 'export const properties: Property[] = ';
 const start = source.indexOf(prefix) + prefix.length;

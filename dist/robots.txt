@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.belestategroup.site/sitemap.xml
+Sitemap: https://www.belestategroup.online/sitemap.xml

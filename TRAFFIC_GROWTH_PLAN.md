@@ -38,7 +38,7 @@ Google препоръчва sitemap за подпомагане на откри�
 
 ## Първите 7 дни: индексация, измерване и local trust
 
-Първо трябва да се свържат Google Search Console и Google Analytics 4. В Search Console следва да се добави домейнът `belestategroup.site`, да се подаде `https://www.belestategroup.site/sitemap.xml` и чрез URL Inspection да се заяви обхождане на началната страница, Portfolio и първите двадесет най-важни listing URL адреса. След това Search Console трябва да се проверява ежеседмично за Indexing, Page Experience, Mobile Usability, sitemaps и Search results заявки.[1] [2]
+Първо трябва да се свържат Google Search Console и Google Analytics 4. В Search Console следва да се добави домейнът `belestategroup.online`, да се подаде `https://www.belestategroup.online/sitemap.xml` и чрез URL Inspection да се заяви обхождане на началната страница, Portfolio и първите двадесет най-важни listing URL адреса. След това Search Console трябва да се проверява ежеседмично за Indexing, Page Experience, Mobile Usability, sitemaps и Search results заявки.[1] [2]
 
 В Google Analytics 4 трябва да се измерват най-малко: органични сесии, разглеждания на конкретна обява, клик върху телефон, изпратено запитване, започнато и успешно завършено запитване, клик към imot.bg и източник/кампания. Без този baseline не може да се прецени кои страници и канали носят реални клиенти.
 

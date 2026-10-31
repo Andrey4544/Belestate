@@ -1,6 +1,6 @@
 import { Property } from '../types';
 
-export const SITE_URL = 'https://www.belestategroup.site';
+export const SITE_URL = 'https://www.belestategroup.online';
 
 const transliteration: Record<string, string> = {
   а: 'a', б: 'b', в: 'v', г: 'g', д: 'd', е: 'e', ж: 'zh', з: 'z', и: 'i', й: 'y',

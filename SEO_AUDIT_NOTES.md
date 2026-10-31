@@ -1,7 +1,7 @@
 # BelEstateGroup SEO audit notes
 
 ## Verified production origin
-The live site resolves at https://www.belestategroup.site/.
+The live site resolves at https://www.belestategroup.online/.
 
 ## Current strengths
 - Bulgarian homepage copy clearly targets real-estate services in Plovdiv and surrounding areas.
@@ -17,7 +17,7 @@ The live site resolves at https://www.belestategroup.site/.
 - Business and property structured data are not present.
 - English property descriptions are largely generic placeholders, creating weak English-language relevance.
 - Some listing images come from third-party portal URLs and include placeholder/no-photo assets.
-- The site should use `https://www.belestategroup.site/` as the canonical production origin.
+- The site should use `https://www.belestategroup.online/` as the canonical production origin.
 
 ## Source references used for recommendations
 - Google JavaScript SEO basics: https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics

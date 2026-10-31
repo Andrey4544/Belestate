@@ -102,9 +102,11 @@ export function SeoHead({ language, view, listingId }: { language: Language; vie
     setMeta('twitter:image', socialImage);
     setMeta('twitter:image:alt', property ? property.titleBg : 'BelEstateGroup недвижими имоти');
     setProperty('og:type', 'website');
+    setProperty('og:site_name', 'BelEstateGroup');
     setProperty('og:title', title);
     setProperty('og:description', description);
     setProperty('og:locale', language === 'bg' ? 'bg_BG' : 'en_GB');
+    setProperty('og:locale:alternate', language === 'bg' ? 'en_GB' : 'bg_BG');
     setProperty('og:url', canonicalUrl);
     setProperty('og:image', socialImage);
     setProperty('og:image:alt', property ? property.titleBg : 'BelEstateGroup недвижими имоти');

@@ -1,0 +1,10 @@
+{
+  "routes": [
+    { "path": "/", "title": "BelEstateGroup | Недвижими имоти в Пловдив и региона" },
+    { "path": "/?view=listings", "title": "Имоти за продажба и под наем в Пловдив и региона" },
+    { "path": "/?view=services", "title": "Услуги при покупка и продажба на имот" },
+    { "path": "/?view=blog", "title": "Полезно за недвижимите имоти" },
+    { "path": "/?view=consultation", "title": "Безплатна консултация за недвижими имоти" },
+    { "path": "/?view=contact", "title": "Контакти | BelEstateGroup" }
+  ]
+}
